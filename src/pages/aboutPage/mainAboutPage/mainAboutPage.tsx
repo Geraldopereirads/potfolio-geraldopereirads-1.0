@@ -1,11 +1,10 @@
 import { DivListMainAboutPage } from "./divListMainAboutPage/divListMainAboutPage";
-import { SpanAboutPageTittle1, SpanAboutPageTittle2, StyleDivListMainAboutPage } from "./divListMainAboutPage/styleDivListMainAboutPage";
 
 export const MainAboutPage = () => {
   return (
-    <StyleDivListMainAboutPage>
+    <main>
       <h1>
-        <SpanAboutPageTittle1>Geraldo</SpanAboutPageTittle1><SpanAboutPageTittle2>Pereira</SpanAboutPageTittle2>
+        <span>Geraldo</span><span>Pereira</span>
       </h1>
       <p>
         Olá! Sou técnico em mecânica industrial em transição de carreira para me
@@ -23,6 +22,6 @@ export const MainAboutPage = () => {
         no mercado de trabalho, com o objetivo de me tornar um desenvolvedor
         full-stack.
       </p>
-    </StyleDivListMainAboutPage>
+    </main>
   );
 };
