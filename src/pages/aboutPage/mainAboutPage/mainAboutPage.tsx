@@ -1,27 +1,17 @@
+import { StyleH1, StyleSpanH1One, StyleSpanH1Two } from "@/styles/h1Style";
 import { DivListMainAboutPage } from "./divListMainAboutPage/divListMainAboutPage";
 
 export const MainAboutPage = () => {
   return (
     <main>
-      <h1>
-        <span>Geraldo</span><span>Pereira</span>
-      </h1>
+      <StyleH1>
+        <StyleSpanH1One>Geraldo</StyleSpanH1One><StyleSpanH1Two>Pereira</StyleSpanH1Two>
+      </StyleH1>
       <p>
-        Olá! Sou técnico em mecânica industrial em transição de carreira para me
-        tornar um desenvolvedor full-stack. Atualmente, sou formado em frontend
-        pela Kenzie Academy Brasil e estou dedicando meus estudos para me tornar
-        um desenvolvedor backend/full-stack. Tenho oito projetos frontend
-        concluídos, nos quais utilizei tecnologias como HTML, CSS, JavaScript,
-        TypeScript e outras.
-      </p>
+      Olá! Sou técnico em mecânica industrial em transição de carreira para me tornar um Desenvolvedor Fullstack, e com isso desenvolvi vários projetos:</p>
       <DivListMainAboutPage />
       <p>
-        Além disso, também desenvolvi cinco projetos backend, utilizando SQL
-        como linguagem e PostgreSQL como ferramenta. No momento, estou
-        aprofundando meus conhecimentos em Python e estou aberto a oportunidades
-        no mercado de trabalho, com o objetivo de me tornar um desenvolvedor
-        full-stack.
-      </p>
+      uma plataforma de jogos, gestão educacional, site hambúrgueres, adquiri também habilidades como trabalho em equipe, criação de sites totalmente responsivo, consumação e criação de API's,  leitura e utilização de documentação,  bibliotecas e utilizar tecnologias como HTML, CSS, JavaScript, TypeScript, ReactJS e outras. Estou aberto a novos desafios</p>
     </main>
   );
 };

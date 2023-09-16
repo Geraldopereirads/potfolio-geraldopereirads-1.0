@@ -1,4 +1,3 @@
-import imgMainGeraldo from "../../../../assets/img/AboutPageGeraldo.svg";
 
 export const DivListMainAboutPage = () => {
   return (
@@ -9,7 +8,7 @@ export const DivListMainAboutPage = () => {
       <li>Criativo</li>
       <li>Fácil Aprendizado</li>
     </ul>
-    <img src={imgMainGeraldo} alt="Geraldo desenvolvedor fullstack" />
+    <img src={"https://github.com/Geraldopereirads.png"} alt="Geraldo desenvolvedor fullstack" />
     <ul>
       <li>Trabalho em equipe</li>
       <li>Agilidade</li>

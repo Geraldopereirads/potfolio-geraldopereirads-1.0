@@ -7,9 +7,10 @@ export const StyleHeader = styled.header`
   justify-content: space-between;
   background-color: var(--header-color);
 
-  width: 100%;
-  max-width: 100%;
   height: 70px;
+
+  position: sticky;
+  top: 0;
 
   @media (min-width: 701px) {
     justify-content: space-around;
@@ -69,7 +70,7 @@ export const StyleNavHeader = styled.nav`
   }
 `;
 export const StyleButtonMenu = styled.span`
-  padding-left: 20px;
+  padding-left: 10px;
 
   @media (min-width: 701px) {
     display: none;
