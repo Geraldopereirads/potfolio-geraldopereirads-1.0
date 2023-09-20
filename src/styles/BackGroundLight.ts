@@ -13,6 +13,6 @@ export const StyleDivBackGroundLight = styled.div`
     right: 0;
     bottom: 0;
     background-image: url(${imageLight});
-    opacity: 0.5;
+    opacity: 0.8;
   }
 `;

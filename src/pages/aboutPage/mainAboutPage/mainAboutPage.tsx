@@ -14,7 +14,8 @@ export const MainAboutPage = () => {
       <p>
         Olá! Sou técnico em mecânica industrial em transição de carreira para me
         tornar um Desenvolvedor Fullstack, e com isso desenvolvi vários
-        projetos: um e-commerce de jogos, gestão educacional, site hambúrgueres.
+        projetos: um e-commerce de jogos, gestão educacional, site hambúrgueres
+        e muitos outros,
       </p>
       <ListMainAboutPageOne />
       <img

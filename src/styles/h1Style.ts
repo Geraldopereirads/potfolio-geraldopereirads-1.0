@@ -7,19 +7,41 @@ export const StyleH1 = styled.h1`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-top: 30px;
 `;
 
 export const StyleSpanH1One = styled.span`
   background-color: var(--primary-color);
   padding: 10px;
+  font-weight: bold;
+  font-size: 2rem;
 
   z-index: 1;
+
+  @media (min-width: 600px) {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 900px) {
+    font-size: 2.8rem;
+  }
 `;
 
 export const StyleSpanH1Two = styled.span`
   background-color: var(--text-dark);
   color: var(--primary-color);
   padding: 10px;
+  font-weight: bold;
+  font-size: 2rem;
 
   z-index: 1;
+
+  @media (min-width: 600px) {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 900px) {
+    font-size: 2.8rem;
+  }
 `;
