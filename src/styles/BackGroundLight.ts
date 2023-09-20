@@ -3,7 +3,6 @@ import imageLight from "../assets/img/backgroundLight.svg";
 
 export const StyleDivBackGroundLight = styled.div`
   height: 100vh;
-  overflow-y: hidden;
   position: relative;
 
   &:before {

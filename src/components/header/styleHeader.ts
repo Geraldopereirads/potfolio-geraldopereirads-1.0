@@ -9,9 +9,6 @@ export const StyleHeader = styled.header`
 
   height: 70px;
 
-  position: sticky;
-  top: 0;
-
   @media (min-width: 701px) {
     justify-content: space-around;
   }
