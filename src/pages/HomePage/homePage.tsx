@@ -6,12 +6,12 @@ import { MainHomePage } from "./MainHomePage/mainHomePage";
 export const HomePage = () => {
   return (
     <>
-    <Header />
-    <StyleDivBackGroundDark>
-      <StyledContainer>
-        <MainHomePage />
-      </StyledContainer>
-    </StyleDivBackGroundDark>
+      <Header />
+      <StyleDivBackGroundDark>
+        <StyledContainer>
+          <MainHomePage />
+        </StyledContainer>
+      </StyleDivBackGroundDark>
     </>
   );
 };

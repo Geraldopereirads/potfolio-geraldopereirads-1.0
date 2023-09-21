@@ -11,10 +11,25 @@ export const StyleHeader = styled.header`
 
   @media (min-width: 701px) {
     justify-content: space-around;
+    a {
+      font-size: 1.1rem;
+    }
   }
 
   @media (min-width: 900px) {
     gap: 40px;
+
+    a {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    gap: 40px;
+
+    a {
+      font-size: 1.5rem;
+    }
   }
 `;
 

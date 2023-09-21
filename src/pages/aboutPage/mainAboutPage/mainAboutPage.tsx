@@ -1,4 +1,4 @@
-import { StyleH1, StyleSpanH1One, StyleSpanH1Two } from "@/styles/h1Style";
+import { StyleH1, StyleSpanH1One, StyleSpanH1Two } from "@/styles/h1StyleOne";
 import { StyleSobreMain } from "./styleMainAboutPage";
 import { ListMainAboutPageOne } from "./listMainAboutPageOne/listMainAboutPageOne";
 import { ListMainAboutPageTwo } from "./listMainAboutPageOne/listMainAboutPageTwo";
