@@ -33,6 +33,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+::-webkit-scrollbar{
+	display: none;
+}
+
 body {
 	line-height: 1;
 }

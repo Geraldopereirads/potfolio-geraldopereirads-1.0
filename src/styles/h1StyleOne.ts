@@ -13,9 +13,11 @@ export const StyleH1 = styled.h1`
 
 export const StyleSpanH1One = styled.span`
   background-color: var(--primary-color);
-  padding: 10px;
+  padding: 10px 15px 10px 10px;
   font-weight: bold;
   font-size: 2rem;
+
+  width: 150px;
 
   z-index: 1;
 
@@ -34,6 +36,8 @@ export const StyleSpanH1Two = styled.span`
   padding: 10px;
   font-weight: bold;
   font-size: 2rem;
+
+  width: 150px;
 
   z-index: 1;
 

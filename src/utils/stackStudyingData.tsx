@@ -1,10 +1,7 @@
-import nestjs from "../assets/tecnologias/nestJs.svg"
+import nestJs from "../assets/tecnologiasStudyng/nestJs.svg";
 
-export const stackStudying = [
-    {
-        tittle: nestjs
-    },
-    {
-        tittle: 
-    },
-]
+export const stackStudyng = [
+  {
+    title: nestJs,
+  },
+];

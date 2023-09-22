@@ -45,7 +45,7 @@ export const StyleMainContainer = styled.main`
   }
 
   img {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
 

@@ -1,30 +1,33 @@
 import { stackEmUso } from "@/utils/stackDataUso";
-import { MainListTools } from "./MainListTools/mainListTools";
-import {
-  MainTitleListStyleOne,
-  MainTitleListStyleTwo,
-} from "./mainTitleListStyle";
+import { MainListToolsOne } from "./MainListTools/mainListToolsOne";
+import { MainTitleListStyleOne, StyleListMain } from "./mainTitleListStyle";
+import { stackStudyng } from "@/utils/stackStudyingData";
 
 export const MainTitleList = () => {
   return (
     <div>
       <MainTitleListStyleOne>
-        <MainTitleListStyleTwo>
+        <div>
           <h2>Tecnologias</h2>
           <small>Atualmente Desenvolvendo</small>
-        </MainTitleListStyleTwo>
-        <MainTitleListStyleTwo>
+        </div>
+        <div>
           <h2>Tecnologias</h2>
           <small>Atualmente Estudando</small>
-        </MainTitleListStyleTwo>
+        </div>
       </MainTitleListStyleOne>
-      <div>
+      <StyleListMain>
         <ul>
           {stackEmUso.map((tech, index) => (
-            <MainListTools key={index} tech={tech} />
+            <MainListToolsOne key={index} tech={tech} />
           ))}
         </ul>
-      </div>
+        <ul>
+          {stackStudyng.map((tech, index) => (
+            <MainListToolsOne key={index} tech={tech} />
+          ))}
+        </ul>
+      </StyleListMain>
     </div>
   );
 };
