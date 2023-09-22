@@ -5,7 +5,7 @@ export const StyleH1Two = styled.h1`
 
   height: 45px;
   width: 180px;
-  margin: 0px auto 50px auto;
+  margin: 0px auto 0px auto;
 
   display: flex;
   justify-content: center;

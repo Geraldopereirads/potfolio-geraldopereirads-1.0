@@ -6,6 +6,8 @@ export const ListMainContactStyle = styled.ul`
   align-items: center;
   justify-content: center;
 
+  padding-top: 50px;
+
   gap: 20px;
 
   li {

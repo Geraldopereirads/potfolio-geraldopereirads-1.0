@@ -8,16 +8,19 @@ export const MenuMobile: React.FC<IMenuMobile> = ({
   menuVisible,
   setMenuVisible,
 }) => {
-
   useEffect(() => {
-    document.body.style.overflowY = menuVisible ? 'hidden' : 'auto';
-  }, [menuVisible])
+    document.body.style.overflowY = menuVisible ? "hidden" : "auto";
+  }, [menuVisible]);
 
   return (
     <>
       <ContainerMenuMobile menuVisible={menuVisible}>
-        
-        <IoClose color="#DAD7D0" cursor="pointer" size={30} onClick={() => setMenuVisible(false)}/>
+        <IoClose
+          color="#DAD7D0"
+          cursor="pointer"
+          size={30}
+          onClick={() => setMenuVisible(false)}
+        />
         <nav>
           <Link to="/">Home</Link>
           <Link to="/sobre">Sobre</Link>

@@ -1,5 +1,5 @@
 import { StyleH1, StyleSpanH1One, StyleSpanH1Two } from "@/styles/h1StyleOne";
-import { MainToolsList } from "./MainToolsList/mainToolsList";
+import { MainTitleList } from "./MainToolsList/mainToolsList";
 
 export const MainToolsPage = () => {
   return (
@@ -8,7 +8,7 @@ export const MainToolsPage = () => {
         <StyleSpanH1One>Minhas</StyleSpanH1One>
         <StyleSpanH1Two>Techs</StyleSpanH1Two>
       </StyleH1>
-      <MainToolsList />
+      <MainTitleList />
     </main>
   );
 };
