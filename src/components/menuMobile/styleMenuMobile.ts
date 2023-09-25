@@ -1,7 +1,9 @@
 import styled, { css } from "styled-components";
-import { CustomComponentProps } from "./@types";
+import { IMenuMobile } from "./@types";
 
-export const ContainerMenuMobile  = styled.section`
+export const ContainerMenuMobile = styled.section<
+  Omit<IMenuMobile, "setMenuVisible">
+>`
   position: absolute;
   backdrop-filter: blur(3px);
   width: 100%;
@@ -15,20 +17,24 @@ export const ContainerMenuMobile  = styled.section`
   justify-content: center;
 
   background: rgba(27, 27, 27, 27);
-  background: linear-gradient(34deg, rgba(214,205,42, 0.95)0%, rgba(27, 27, 27, 0.95) 55%);
+  background: linear-gradient(
+    34deg,
+    rgba(214, 205, 42, 0.95) 0%,
+    rgba(27, 27, 27, 0.95) 55%
+  );
 
   opacity: 0;
   pointer-events: none;
   transform: translateY(50px);
 
-  transition: .5s;
+  transition: 0.5s;
 
   > svg {
     position: absolute;
     top: 1rem;
     left: 1rem;
     transform: rotate(45deg);
-    transition: .7s;
+    transition: 0.7s;
   }
 
   nav {
@@ -38,22 +44,19 @@ export const ContainerMenuMobile  = styled.section`
     flex-direction: column;
     gap: 2rem;
     transform: scale(0.7);
-    transition: .7s;
-
+    transition: 0.7s;
   }
 
-  a{
+  a {
     border-bottom: solid 1px transparent;
     font-size: 1.5rem;
   }
 
-
-  a:hover{
+  a:hover {
     border-bottom: solid 1px var(--primary-color);
   }
 
-
-  ${({ menuVisible }: CustomComponentProps) =>
+  ${({ menuVisible }) =>
     menuVisible &&
     css`
       opacity: 1;
@@ -68,5 +71,4 @@ export const ContainerMenuMobile  = styled.section`
         transform: scale(1);
       }
     `}
-
 `;

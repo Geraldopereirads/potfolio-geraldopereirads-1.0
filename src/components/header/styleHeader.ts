@@ -8,11 +8,13 @@ export const StyleHeader = styled.header`
   background-color: var(--header-color);
 
   height: 70px;
+  gap: 70px;
 
   @media (min-width: 701px) {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 10px;
     a {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -20,11 +22,13 @@ export const StyleHeader = styled.header`
     gap: 40px;
 
     a {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   }
 
   @media (min-width: 1200px) {
+    justify-content: space-around;
+
     gap: 40px;
 
     a {

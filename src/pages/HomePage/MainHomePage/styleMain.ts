@@ -10,18 +10,18 @@ export const StyleMainContainer = styled.main`
   h1 {
     color: var(--text-clarified);
     max-width: 90%;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     padding-left: 10px;
     line-height: 120%;
 
     small {
-      font-size: 0.875rem;
+      font-size: 1rem;
       color: var(--text-clarified);
     }
   }
 
   h2 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--text-clarified);
     padding-left: 10px;
   }
@@ -51,7 +51,7 @@ export const StyleMainContainer = styled.main`
 
   @media (min-width: 430px) {
     h1 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
       line-height: 125%;
     }
 
@@ -62,12 +62,25 @@ export const StyleMainContainer = styled.main`
     h2 {
       font-size: 1.2rem;
       line-height: 125%;
+    }
+
+    img {
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 500px) {
+    img {
+      width: 70%;
     }
   }
 
   @media (min-width: 600px) {
+    flex-direction: row;
+    align-items: center;
+
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     h1 small {
@@ -76,17 +89,18 @@ export const StyleMainContainer = styled.main`
 
     h2 {
       font-size: 1rem;
+    }
+
+    img {
+      width: 50%;
     }
   }
 
   @media (min-width: 700px) {
-    flex-direction: row;
-    align-items: center;
-
     padding-top: 30px;
 
     h1 {
-      font-size: 1.6rem;
+      font-size: 2.5rem;
     }
 
     h1 small {
@@ -95,6 +109,10 @@ export const StyleMainContainer = styled.main`
 
     h2 {
       font-size: 1rem;
+    }
+
+    img {
+      width: 52%;
     }
   }
 
@@ -114,7 +132,7 @@ export const StyleMainContainer = styled.main`
     gap: 150px;
 
     img {
-      width: 40%;
+      width: 52%;
     }
   }
 
@@ -123,12 +141,16 @@ export const StyleMainContainer = styled.main`
     gap: 220px;
 
     img {
-      width: 30%;
+      width: 40%;
     }
   }
   @media (min-width: 1400px) {
     padding-top: 100px;
     gap: 300px;
+
+    img {
+      width: 34%;
+    }
   }
 `;
 
@@ -147,6 +169,10 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 500px) {
+    max-width: 100%;
+  }
+
+  @media (min-width: 600px) {
     max-width: 47%;
   }
 
@@ -159,7 +185,7 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 1200px) {
-    max-width: 32%;
+    max-width: 40%;
   }
 
   @media (min-width: 1400px) {
