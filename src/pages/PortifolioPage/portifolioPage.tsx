@@ -1,7 +1,19 @@
-import { Header } from '../../components/header/Header'
+import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
+import { Header } from "../../components/header/Header";
+import { StyledContainer } from "@/styles/grid";
+import { StyleH1Two } from "@/styles/h1StyleTwo";
+import { MainPortfolioPage } from "./MainPortfolioPage/mainPortfolioPage";
 
 export const PortifolioPage = () => {
   return (
-    <Header/>
-  )
-}
+    <>
+      <Header />
+      <StyleDivBackGroundDark>
+        <StyledContainer>
+          <StyleH1Two>Portfólio</StyleH1Two>
+          <MainPortfolioPage />
+        </StyledContainer>
+      </StyleDivBackGroundDark>
+    </>
+  );
+};
