@@ -17,16 +17,12 @@ export const StyleSpanH1One = styled.span`
   font-weight: bold;
   font-size: 2rem;
 
-  width: 150px;
+  width: 130px;
 
   z-index: 1;
 
   @media (min-width: 600px) {
     font-size: 2.5rem;
-  }
-
-  @media (min-width: 900px) {
-    font-size: 2.8rem;
   }
 `;
 
@@ -37,15 +33,11 @@ export const StyleSpanH1Two = styled.span`
   font-weight: bold;
   font-size: 2rem;
 
-  width: 150px;
+  width: 130px;
 
   z-index: 1;
 
   @media (min-width: 600px) {
     font-size: 2.5rem;
-  }
-
-  @media (min-width: 900px) {
-    font-size: 2.8rem;
   }
 `;

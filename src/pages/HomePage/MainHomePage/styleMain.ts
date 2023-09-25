@@ -132,7 +132,7 @@ export const StyleMainContainer = styled.main`
     gap: 150px;
 
     img {
-      width: 52%;
+      width: 40%;
     }
   }
 

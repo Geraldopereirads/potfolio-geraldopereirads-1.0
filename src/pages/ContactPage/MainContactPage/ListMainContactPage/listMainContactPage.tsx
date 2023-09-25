@@ -8,44 +8,62 @@ export const ListMainContactPage = () => {
   return (
     <>
       <ListMainContactStyle>
-        <li>E-mail</li>
         <li>
           <Link target="_blank" to={"mailto:geraldo.pereirads@hotmail.com"}>
-            <MdOutlineAttachEmail size={50} />
+            <h2>E-mail</h2>
+          </Link>
+          <Link target="_blank" to={"mailto:geraldo.pereirads@hotmail.com"}>
+            <MdOutlineAttachEmail size={35} />
+          </Link>
+          <Link target="_blank" to={"mailto:geraldo.pereirads@hotmail.com"}>
+            <span>geraldo.pereirads@hotmail.com</span>
           </Link>
         </li>
-        <li>geraldo.pereirads@hotmail.com</li>
-        <br />
 
-        <li>Telefone</li>
         <li>
           <Link target="_blank" to={"https://wa.me/5522997773136"}>
-            <BsWhatsapp size={50} />
+            <h2>Telefone</h2>
+          </Link>
+          <Link target="_blank" to={"https://wa.me/5522997773136"}>
+            <BsWhatsapp size={35} />
+          </Link>
+          <Link target="_blank" to={"https://wa.me/5522997773136"}>
+            <span>22 9 9777 - 3136</span>
           </Link>
         </li>
-        <li>22 9 9777 - 3136</li>
-        <br />
 
-        <li>LinkedIn</li>
         <li>
           <Link
             target="_blank"
             to={"https://www.linkedin.com/in/geraldo-pereira/"}
           >
-            <GrLinkedinOption size={50} />
+            <h2>LinkedIn</h2>
+          </Link>
+          <Link
+            target="_blank"
+            to={"https://www.linkedin.com/in/geraldo-pereira/"}
+          >
+            <GrLinkedinOption size={35} />
+          </Link>
+          <Link
+            target="_blank"
+            to={"https://www.linkedin.com/in/geraldo-pereira/"}
+          >
+            <span>/geraldo-pereira</span>
           </Link>
         </li>
-        <li>/geraldo-pereira</li>
-        <br />
 
-        <li>GitHub</li>
         <li>
-          {" "}
           <Link target="_blank" to={"https://github.com/Geraldopereirads"}>
-            <GrGithub size={50} />
+            <h2>GitHub</h2>
+          </Link>
+          <Link target="_blank" to={"https://github.com/Geraldopereirads"}>
+            <GrGithub size={35} />
+          </Link>
+          <Link target="_blank" to={"https://github.com/Geraldopereirads"}>
+            <span>/Geraldopereirads</span>
           </Link>
         </li>
-        <li>/Geraldopereirads</li>
       </ListMainContactStyle>
     </>
   );
