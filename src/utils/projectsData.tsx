@@ -18,4 +18,36 @@ export const projectsData = [
     linkeDin:
       "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    title: "Burguer Kenzie",
+    img: kenzieburguer,
+    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
+    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
+    linkeDin:
+      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    title: "Burguer Kenzie",
+    img: kenzieburguer,
+    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
+    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
+    linkeDin:
+      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    title: "Burguer Kenzie",
+    img: kenzieburguer,
+    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
+    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
+    linkeDin:
+      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    title: "Burguer Kenzie",
+    img: kenzieburguer,
+    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
+    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
+    linkeDin:
+      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
+  },
 ];
