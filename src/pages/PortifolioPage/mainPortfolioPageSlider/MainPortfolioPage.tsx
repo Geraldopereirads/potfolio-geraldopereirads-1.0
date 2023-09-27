@@ -8,6 +8,7 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import SwiperCore from "swiper";
 import { useState } from "react";
 import "../../PortifolioPage/mainPortfolioPageSlider/ProjectList/projectList.scss";
+import { ProjectListDown } from "./ProjectList/projectListDown";
 
 export const MainPortfolioPage = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperCore>();
@@ -18,14 +19,17 @@ export const MainPortfolioPage = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        paddingBottom: "30px",
       }}
     >
       <ul
         style={{
           width: "800px",
-          height: "600px",
-          backgroundColor: "#CCCBC7",
+          height: "528px",
+          backgroundColor: "#1B1B1B",
           padding: "20px",
+          marginTop: "50px",
+          borderRadius: "10px",
         }}
       >
         <Swiper
@@ -57,7 +61,7 @@ export const MainPortfolioPage = () => {
         >
           {projectsData.map((project, index) => (
             <SwiperSlide key={index}>
-              <ProjectsList project={project} />
+              <ProjectListDown project={project} />
             </SwiperSlide>
           ))}
         </Swiper>

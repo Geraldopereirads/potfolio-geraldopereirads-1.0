@@ -1,53 +1,45 @@
 import kenziehub from "../assets/projects/KenzieHub.png";
 import kenzieburguer from "../assets/projects/KenzieBurguer.png";
+import webwomen from "../assets/projects/Webwomen.png";
+import nukenzie from "../assets/projects/nuKenzie.png";
+import kenzieflix from "../assets/projects/KenzieFlix.png";
+import speedJob from "../assets/projects/speedJob.png";
 
 export const projectsData = [
+  {
+    title: "kenzieflix",
+    img: kenzieflix,
+    urlVercel: "https://s2-23-entrega-css-kenzie-flix.vercel.app/",
+    github: "https://github.com/Geraldopereirads/KenzieFlix",
+  },
+  {
+    title: "Speed Job",
+    img: speedJob,
+    urlVercel: "https://speed-job.vercel.app/",
+    github: "https://github.com/Geraldopereirads/SpeedJob",
+  },
+  {
+    title: "Webwomen",
+    img: webwomen,
+    urlVercel: "https://webwomen-sable.vercel.app/",
+    github: "https://github.com/Geraldopereirads/WebWomen",
+  },
+  {
+    title: "NuKenzie",
+    img: nukenzie,
+    urlVercel: "https://nu-kenzie-217zysvxi-geraldopereirads.vercel.app/",
+    github: "https://github.com/Geraldopereirads/NuKenzie",
+  },
+  {
+    title: "Burguer Kenzie",
+    img: kenzieburguer,
+    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
+    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
+  },
   {
     title: "KenzieHub",
     img: kenziehub,
     urlVercel: "https://kenzie-hub-geraldopereirads.vercel.app/",
     github: "https://github.com/Geraldopereirads/KenzieHub",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-ui-activity-7042068974154436608-Rqzx?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    title: "Burguer Kenzie",
-    img: kenzieburguer,
-    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
-    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    title: "Burguer Kenzie",
-    img: kenzieburguer,
-    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
-    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    title: "Burguer Kenzie",
-    img: kenzieburguer,
-    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
-    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    title: "Burguer Kenzie",
-    img: kenzieburguer,
-    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
-    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    title: "Burguer Kenzie",
-    img: kenzieburguer,
-    urlVercel: "https://kenzie-burguer-v2-eta.vercel.app/",
-    github: "https://github.com/Geraldopereirads/Hamburgueria-2.0",
-    linkeDin:
-      "https://www.linkedin.com/posts/geraldo-pereira_react-reactjs-css-activity-7039216068313198592-CRBQ?utm_source=share&utm_medium=member_desktop",
   },
 ];

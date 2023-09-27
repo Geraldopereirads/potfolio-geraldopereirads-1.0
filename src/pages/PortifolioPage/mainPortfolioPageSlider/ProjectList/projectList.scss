@@ -1,51 +1,10 @@
-.swiper-slide {
-    text-align: center;
-    font-size: 1.125rem;
-    background: transparent;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.logout {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.swiper-slide-visible {
-    margin-top: 0px;
-}
-
 .swiper-wrapper {
-    height: 120%;
+    height: 160%;
 
-}
-
-.swiper {
-    width: 100%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.swiper-slide {
-    background-size: cover;
-    background-position: center;
 }
 
 .mySwiper2 {
-    height: 500px;
+    height: 388px;
     width: 100%;
     max-width: 1200px;
 
@@ -54,35 +13,18 @@
 .mySwiper {
     height: 20%;
     box-sizing: border-box;
-    margin-bottom: 100px;
 
 }
 
-.mySwiper .swiper-slide {
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
-
-}
-
-.mySwiper .swiper-slide-thumb-active {
-    opacity: 1;
-}
 
 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 60%;
-    object-fit: cover;
-
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    top: 60%;
+    height: 55%;
+    border-radius: 10px;
 }
 
 :root {
-    --swiper-navigation-color: #fff;
-    --swiper-pagination-color: #fff;
+    --swiper-navigation-color: var(--text-clarified);
+    --swiper-pagination-color: var(--text-clarified);
 }
