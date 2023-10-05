@@ -12,10 +12,21 @@ export const MainAboutPage = () => {
       </StyleH1>
 
       <p>
-        Olá! Sou técnico em mecânica industrial em transição de carreira para me
-        tornar um Desenvolvedor Fullstack, e com isso desenvolvi vários
-        projetos: um e-commerce de jogos, gestão educacional, site hambúrgueres
-        e muitos outros,
+        Olá! Sou um desenvolvedor Full-stack com mais de um ano de experiência
+        em desenvolvimento web. Durante minha jornada, concluí diversos projetos
+        significativos que demonstram minha habilidade e expertise na área. Um
+        desses projetos é uma aplicação para uma hamburgueria fictícia,
+        construída utilizando React. Essa aplicação se destaca por sua
+        integração com uma API para obtenção de produtos, funcionalidades
+        avançadas como adicionar produtos ao carrinho e exibição do valor total
+        da compra. Além disso, a estilização é responsiva, seguindo as melhores
+        práticas de mobile first. Outro projeto relevante é uma aplicação de
+        listagem de tecnologias desenvolvida em React e TypeScript. Essa
+        aplicação inclui recursos como cadastro e login de usuários, além da
+        capacidade de cadastrar e remover tecnologias. Para garantir a qualidade
+        e segurança, utilizei tecnologias como React Hook Form, Yup,
+        React-Toastify e Context API, juntamente com Styled Components para a
+        estilização responsiva.
       </p>
       <ListMainAboutPageOne />
       <img
@@ -25,11 +36,15 @@ export const MainAboutPage = () => {
       <ListMainAboutPageTwo />
 
       <p>
-        adquiri também habilidades como trabalho em equipe, criação de sites
-        totalmente responsivo, consumir e criar API's, leitura e utilização de
-        documentação, bibliotecas e utilizar tecnologias como HTML, CSS,
-        JavaScript, TypeScript, ReactJS e outras. Estou aberto a novos desafios
-        para Desenvolvimento Web.
+        Além disso, desenvolvi uma API para uma locadora de filmes fictícios,
+        utilizando tecnologias de ponta, como TypeScript, Zod, PostgreSQL,
+        TypeORM, PG e PG-Format. Essa API permite realizar operações de CRUD
+        completo de filmes, demonstrando minha competência na construção de
+        sistemas robustos e escaláveis. Estou sempre em busca de novos desafios
+        no desenvolvimento web e estou animado para continuar contribuindo com
+        meu conhecimento e habilidades em projetos futuros. Se você busca um
+        profissional com paixão pelo desenvolvimento web, estou à disposição
+        para colaborar em sua próxima empreitada.{" "}
       </p>
     </StyleSobreMain>
   );
