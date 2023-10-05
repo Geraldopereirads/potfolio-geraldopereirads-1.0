@@ -20,10 +20,6 @@ export const StyleSpanH1One = styled.span`
   width: 130px;
 
   z-index: 1;
-
-  @media (min-width: 600px) {
-    font-size: 2.5rem;
-  }
 `;
 
 export const StyleSpanH1Two = styled.span`
@@ -36,8 +32,4 @@ export const StyleSpanH1Two = styled.span`
   width: 130px;
 
   z-index: 1;
-
-  @media (min-width: 600px) {
-    font-size: 2.5rem;
-  }
 `;

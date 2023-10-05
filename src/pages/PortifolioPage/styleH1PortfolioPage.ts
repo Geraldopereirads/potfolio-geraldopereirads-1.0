@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const StyleH1Two = styled.h1`
+export const H1PortfolioPage = styled.h1`
   background-color: var(--primary-color);
 
   height: 45px;
   width: 180px;
-  margin: 50px auto 0px auto;
+  margin: 100px auto 100px auto;
 
   display: flex;
   justify-content: center;
