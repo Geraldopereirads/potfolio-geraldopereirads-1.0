@@ -3,5 +3,5 @@ import imageDark from "../assets/img/backgroundDark.svg";
 
 export const StyleDivBackGroundDark = styled.div`
   background-image: url(${imageDark});
-  height: 100vh;
+  min-height: 100vh;
 `;

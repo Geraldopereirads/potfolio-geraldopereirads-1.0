@@ -20,4 +20,14 @@ export const MainPortfolioPageStyleUl = styled.ul`
     color: var(--title-nav);
     background-color: var(--title-nav);
   }
+
+  @media (max-width: 700px) {
+    .swiper-button-prev {
+      display: none;
+    }
+
+    .swiper-button-next {
+      display: none;
+    }
+  }
 `;

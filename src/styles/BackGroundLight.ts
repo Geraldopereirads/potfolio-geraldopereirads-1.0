@@ -2,7 +2,7 @@ import styled from "styled-components";
 import imageLight from "../assets/img/backgroundLight.svg";
 
 export const StyleDivBackGroundLight = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 
   &:before {

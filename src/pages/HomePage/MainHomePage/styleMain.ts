@@ -5,7 +5,7 @@ export const StyleMainContainer = styled.main`
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
-  padding-bottom: 30px;
+  padding: 50px 0px 50px 0px;
 
   h1 {
     color: var(--text-clarified);
@@ -70,14 +70,21 @@ export const StyleMainContainer = styled.main`
   }
 
   @media (min-width: 500px) {
+    h1 {
+      max-width: 75%;
+    }
     img {
       width: 70%;
     }
   }
 
   @media (min-width: 600px) {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     h1 {
       font-size: 2.5rem;
@@ -131,6 +138,10 @@ export const StyleMainContainer = styled.main`
   @media (min-width: 1000px) {
     gap: 150px;
 
+    h1 {
+      max-width: 90%;
+    }
+
     img {
       width: 40%;
     }
@@ -140,6 +151,10 @@ export const StyleMainContainer = styled.main`
     padding-top: 100px;
     gap: 220px;
 
+    h1 {
+      font-size: 3rem;
+    }
+
     img {
       width: 40%;
     }
@@ -148,8 +163,25 @@ export const StyleMainContainer = styled.main`
     padding-top: 100px;
     gap: 300px;
 
+    h1 {
+      font-size: 3.5rem;
+    }
+
     img {
       width: 34%;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    padding-top: 100px;
+    gap: 300px;
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    img {
+      width: 28%;
     }
   }
 `;
@@ -190,5 +222,9 @@ export const StyleDivMainContainer = styled.div`
 
   @media (min-width: 1400px) {
     max-width: 32%;
+    padding-left: 50px;
+  }
+  @media (min-width: 1600px) {
+    max-width: 23%;
   }
 `;

@@ -10,16 +10,17 @@ export const StyleHeader = styled.header`
   height: 70px;
   gap: 70px;
 
-  @media (min-width: 701px) {
+  @media (min-width: 700px) {
     justify-content: space-between;
-    padding-left: 10px;
+    gap: 50px;
+
     a {
       font-size: 1.2rem;
     }
   }
 
   @media (min-width: 900px) {
-    gap: 40px;
+    gap: 60px;
 
     a {
       font-size: 1.5rem;
@@ -49,6 +50,7 @@ export const StyleDivSociaisHeader = styled.div`
 export const StyleNavHeader = styled.nav`
   display: flex;
   gap: 30px;
+  padding-left: 10px;
 
   a {
     border-bottom: solid 1px transparent;
@@ -79,7 +81,7 @@ export const StyleNavHeader = styled.nav`
   }
 
   @media (min-width: 1200px) {
-    gap: 125px;
+    gap: 100px;
   }
   @media (min-width: 1400px) {
     gap: 150px;
@@ -88,7 +90,7 @@ export const StyleNavHeader = styled.nav`
 export const StyleButtonMenu = styled.span`
   padding-left: 10px;
 
-  @media (min-width: 701px) {
+  @media (min-width: 700px) {
     display: none;
   }
 `;
