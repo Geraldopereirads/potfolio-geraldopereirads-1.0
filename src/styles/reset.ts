@@ -37,6 +37,10 @@ footer, header, hgroup, menu, nav, section {
 	box-sizing: border-box;
 }
 
+a{
+	cursor: pointer;
+}
+
 
 ::-webkit-scrollbar{
 	display: none;

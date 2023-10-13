@@ -90,7 +90,7 @@ export const StyleNavHeader = styled.nav`
 export const StyleButtonMenu = styled.span`
   padding-left: 10px;
 
-  @media (min-width: 700px) {
+  @media (min-width: 701px) {
     display: none;
   }
 `;

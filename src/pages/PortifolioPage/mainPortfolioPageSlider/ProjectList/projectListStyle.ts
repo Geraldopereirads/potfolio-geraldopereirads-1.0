@@ -10,6 +10,9 @@ export const ProjectListStyleLi = styled.li`
     height: 350px;
     object-fit: cover;
   }
+  a {
+    cursor: pointer;
+  }
 `;
 
 export const ProjectListStyleDiv = styled.div`
@@ -20,6 +23,7 @@ export const ProjectListStyleDiv = styled.div`
   a {
     cursor: pointer;
   }
+
   @media (min-width: 700px) {
     gap: 20px;
   }
