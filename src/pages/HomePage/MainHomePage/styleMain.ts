@@ -173,8 +173,7 @@ export const StyleMainContainer = styled.main`
   }
 
   @media (min-width: 1600px) {
-    padding-top: 100px;
-    gap: 300px;
+    gap: 40px;
 
     h1 {
       font-size: 3.5rem;
