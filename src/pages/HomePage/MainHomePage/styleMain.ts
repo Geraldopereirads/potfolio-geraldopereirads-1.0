@@ -65,7 +65,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 80%;
+      width: 100%;
     }
   }
 
@@ -74,7 +74,7 @@ export const StyleMainContainer = styled.main`
       max-width: 75%;
     }
     img {
-      width: 70%;
+      width: 90%;
     }
   }
 
@@ -180,7 +180,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 28%;
+      width: 30%;
     }
   }
 `;
@@ -220,10 +220,10 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 1400px) {
-    max-width: 32%;
+    max-width: 40%;
     padding-left: 50px;
   }
   @media (min-width: 1600px) {
-    max-width: 23%;
+    max-width: 45%;
   }
 `;
