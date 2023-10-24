@@ -7,6 +7,7 @@ export const MainTitleListStyleOne = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  padding: 70px 0px 0px 0px;
 
   div {
     display: flex;

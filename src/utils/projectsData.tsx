@@ -4,6 +4,7 @@ import webwomen from "../assets/projects/Webwomen.png";
 import nukenzie from "../assets/projects/nuKenzie.png";
 import kenzieflix from "../assets/projects/KenzieFlix.png";
 import speedJob from "../assets/projects/speedJob.png";
+import portfolioimg from "../assets/projects/portfólioImg.png";
 
 export const projectsData = [
   {
@@ -41,5 +42,11 @@ export const projectsData = [
     img: kenziehub,
     urlVercel: "https://kenzie-hub-geraldopereirads.vercel.app/",
     github: "https://github.com/Geraldopereirads/KenzieHub",
+  },
+  {
+    title: "Portfólio Geraldo",
+    img: portfolioimg,
+    urlVercel: "https://geraldopereira.com.br",
+    github: "https://github.com/Geraldopereirads/potfolio-geraldopereirads",
   },
 ];

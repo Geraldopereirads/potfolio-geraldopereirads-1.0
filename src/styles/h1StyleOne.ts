@@ -8,7 +8,7 @@ export const StyleH1 = styled.h1`
   justify-content: center;
   align-items: center;
 
-  margin: 70px 0px 70px 0px;
+  margin: 70px 0px 0px 0px;
 `;
 
 export const StyleSpanH1One = styled.span`
