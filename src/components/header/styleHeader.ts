@@ -20,10 +20,8 @@ export const StyleHeader = styled.header`
   }
 
   @media (min-width: 900px) {
-    gap: 60px;
-
     a {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
 

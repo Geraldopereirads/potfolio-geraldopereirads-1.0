@@ -8,18 +8,23 @@ export const StyleH1 = styled.h1`
   justify-content: center;
   align-items: center;
 
-  margin-top: 30px;
+  margin: 70px 0px 70px 0px;
 `;
 
 export const StyleSpanH1One = styled.span`
   background-color: var(--primary-color);
   padding: 10px 15px 10px 10px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
 
-  width: 130px;
+  width: 140px;
 
   z-index: 1;
+
+  @media (min-width: 900px) {
+    font-size: 2.5rem;
+    width: 160px;
+  }
 `;
 
 export const StyleSpanH1Two = styled.span`
@@ -27,9 +32,13 @@ export const StyleSpanH1Two = styled.span`
   color: var(--primary-color);
   padding: 10px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
 
-  width: 130px;
+  width: 140px;
 
   z-index: 1;
+  @media (min-width: 900px) {
+    font-size: 2.5rem;
+    width: 160px;
+  }
 `;

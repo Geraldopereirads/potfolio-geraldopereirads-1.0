@@ -17,46 +17,36 @@ export const StyleSobreMain = styled.main`
     line-height: 135%;
     font-weight: 500;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     max-width: 95%;
   }
 
   @media (min-width: 400px) {
     p {
-      line-height: 150%;
-      font-size: 1.25rem;
-    }
-  }
-  @media (min-width: 450px) {
-    p {
-      line-height: 150%;
-      font-size: 1.3rem;
+      line-height: 170%;
+      font-size: 1.2rem;
     }
   }
 
   @media (min-width: 500px) {
     p {
-      line-height: 150%;
-      font-size: 1.5rem;
-    }
-  }
-
-  @media (min-width: 700px) {
-    p {
-      line-height: 150%;
-      font-size: 1.65rem;
+      line-height: 170%;
+      font-size: 1.3rem;
     }
   }
 
   @media (min-width: 900px) {
     p {
       line-height: 170%;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
+`;
 
-  @media (min-width: 1300px) {
-    gap: 50px;
-  }
+export const StyleDivMain = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 `;
