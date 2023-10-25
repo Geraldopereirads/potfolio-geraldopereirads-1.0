@@ -14,7 +14,7 @@ export const MainHomePage = () => {
 
         <Link to="/sobre">Saiba mais sobre mim</Link>
       </StyleDivMainContainer>
-      <img src={ImagemMain} alt="Imagem animada Desenvolvedor Front End" />
+      <img src={ImagemMain} alt="Imagem animada Desenvolvedor" />
     </StyleMainContainer>
   );
 };

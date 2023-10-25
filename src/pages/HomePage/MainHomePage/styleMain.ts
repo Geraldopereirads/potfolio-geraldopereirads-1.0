@@ -65,7 +65,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 100%;
+      width: 90%;
     }
   }
 
@@ -74,18 +74,11 @@ export const StyleMainContainer = styled.main`
       max-width: 75%;
     }
     img {
-      width: 90%;
+      width: 80%;
     }
   }
 
   @media (min-width: 600px) {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
     h1 {
       font-size: 2.5rem;
     }
@@ -99,11 +92,22 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 50%;
+      width: 70%;
     }
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 650px) {
+    img {
+      width: 65%;
+    }
+  }
+
+  @media (min-width: 699px) {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding-top: 30px;
 
     h1 {
@@ -204,7 +208,7 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 600px) {
-    max-width: 47%;
+    max-width: 100%;
   }
 
   @media (min-width: 700px) {
