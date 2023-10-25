@@ -11,6 +11,8 @@ export const StyleSobreMain = styled.main`
     width: 170px;
 
     border-radius: 100px;
+
+    z-index: 10;
   }
 
   p {
