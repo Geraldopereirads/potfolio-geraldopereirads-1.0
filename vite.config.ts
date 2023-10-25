@@ -7,12 +7,4 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
-  build: {
-    rollupOptions: {
-      input: "src/main.ts",
-    },
-  },
-  optimizeDeps: {
-    include: ["react", "react-dom"],
-  },
 });

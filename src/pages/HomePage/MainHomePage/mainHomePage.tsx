@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-import ImagemMain from "../../../assets/img/DesenvolvedorFrontend.svg"
+import ImagemMain from "../../../assets/img/DesenvolvedorFrontend.svg";
 import { StyleDivMainContainer, StyleMainContainer } from "./styleMain";
 export const MainHomePage = () => {
   return (
     <StyleMainContainer>
       <StyleDivMainContainer>
         <h1>
-          <small>Olá,</small> <br />Eu sou Geraldo Pereira, Desenvolvedor Front-End
+          <small>Olá,</small> <br />
+          Eu sou Geraldo Pereira, Desenvolvedor Full-Stack
         </h1>
 
         <h2>Seja bem-vindo ao meu portifólio website</h2>
