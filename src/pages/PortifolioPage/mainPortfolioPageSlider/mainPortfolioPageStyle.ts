@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainPortfolioPageStyleUl = styled.ul`
+export const MainPortfolioPageStyleUlOne = styled.ul`
   .swiper-wrapper {
     display: flex;
     gap: 20px;
@@ -20,7 +20,9 @@ export const MainPortfolioPageStyleUl = styled.ul`
     color: var(--title-nav);
     background-color: var(--title-nav);
   }
-
+  .swiper-pagination-horizontal {
+    z-index: 0;
+  }
   @media (max-width: 700px) {
     .swiper-button-prev {
       display: none;
@@ -29,5 +31,15 @@ export const MainPortfolioPageStyleUl = styled.ul`
     .swiper-button-next {
       display: none;
     }
+  }
+`;
+
+export const MainPortfolioPageStyleUlTwo = styled.ul`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 `;

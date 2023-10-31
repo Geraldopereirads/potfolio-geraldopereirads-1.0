@@ -1,8 +1,12 @@
 import { projectsData } from "@/utils/projectsData";
-import { ProjectsList } from "./ProjectList/projectList";
+import { ProjectsListOne } from "./ProjectListOne/projectListOne";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
-import { MainPortfolioPageStyleUl } from "./mainPortfolioPageStyle";
+import {
+  MainPortfolioPageStyleUlOne,
+  MainPortfolioPageStyleUlTwo,
+} from "./mainPortfolioPageStyle";
+import { ProjectsListTwo } from "./ProjectListTwo/projectListTwo";
 
 export const MainPortfolioPage = () => {
   const [slidePerView, setSlidePerView] = useState(2);
@@ -26,20 +30,28 @@ export const MainPortfolioPage = () => {
 
   return (
     <main>
-      <MainPortfolioPageStyleUl>
-        <Swiper
-          loop={true}
-          slidesPerView={slidePerView}
-          pagination={{ clickable: true }}
-          navigation
-        >
+      {window.innerWidth < 700 ? (
+        <MainPortfolioPageStyleUlOne>
+          <Swiper
+            loop={true}
+            slidesPerView={slidePerView}
+            pagination={{ clickable: true }}
+            navigation
+          >
+            {projectsData.map((project, index) => (
+              <SwiperSlide key={index}>
+                <ProjectsListOne project={project} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </MainPortfolioPageStyleUlOne>
+      ) : (
+        <MainPortfolioPageStyleUlTwo>
           {projectsData.map((project, index) => (
-            <SwiperSlide key={index}>
-              <ProjectsList project={project} />
-            </SwiperSlide>
+            <ProjectsListTwo project={project} />
           ))}
-        </Swiper>
-      </MainPortfolioPageStyleUl>
+        </MainPortfolioPageStyleUlTwo>
+      )}
     </main>
   );
 };
