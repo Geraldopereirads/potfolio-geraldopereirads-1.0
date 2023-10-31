@@ -4,14 +4,14 @@ import { IMenuMobile } from "./@types";
 export const ContainerMenuMobile = styled.section<
   Omit<IMenuMobile, "setMenuVisible">
 >`
-  position: absolute;
+  position: fixed;
   backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +38,7 @@ export const ContainerMenuMobile = styled.section<
   }
 
   nav {
+    z-index: 90;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +49,13 @@ export const ContainerMenuMobile = styled.section<
   }
 
   a {
+    z-index: 80;
     border-bottom: solid 1px transparent;
     font-size: 1.5rem;
   }
 
   a:hover {
+    z-index: 99;
     border-bottom: solid 1px var(--primary-color);
   }
 

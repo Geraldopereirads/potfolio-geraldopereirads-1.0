@@ -10,6 +10,10 @@ export const StyleHeader = styled.header`
   height: 70px;
   gap: 70px;
 
+  position: sticky;
+  z-index: 5;
+  top: 0;
+
   @media (min-width: 700px) {
     justify-content: space-between;
     gap: 50px;
