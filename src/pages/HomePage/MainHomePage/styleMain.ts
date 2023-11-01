@@ -213,13 +213,6 @@ export const StyleDivMainContainer = styled.div`
     max-width: 100%;
   }
 
-  @media (min-width: 600px) {
-    max-width: 41%;
-  }
-
-  @media (min-width: 700px) {
-  }
-
   @media (min-width: 1000px) {
     max-width: 32%;
   }
