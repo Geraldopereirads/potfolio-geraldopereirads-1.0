@@ -8,7 +8,9 @@ export const MainTitleList = () => {
     <div>
       <MainTitleListStyleOne>
         <div>
-          <h2>Tecnologias</h2>
+          <h2 title="JavaScript, TypeScript, ReactJS, CSS, HTML, SQl, Python, Django, NextJS, NestJS">
+            Tecnologias
+          </h2>
           <small>Atualmente Desenvolvendo</small>
         </div>
         <div>

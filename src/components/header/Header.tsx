@@ -42,21 +42,21 @@ export const Header = () => {
           <BsWhatsapp size={25} />
         </Link>
         <Link
-          title="Linkedin"
+          title="Linkedin dev fullstack"
           target="_blank"
           to={"https://www.linkedin.com/in/geraldo-pereira/"}
         >
           <GrLinkedinOption size={25} />
         </Link>
         <Link
-          title="github"
+          title="github dev fullstack"
           target="_blank"
           to={"https://github.com/Geraldopereirads"}
         >
           <GrGithub size={25} />
         </Link>
         <Link
-          title="instagram"
+          title="instagram dev fullstack"
           target="_blank"
           to={"https://www.instagram.com/geraldopereiradsj/"}
         >
@@ -64,7 +64,7 @@ export const Header = () => {
         </Link>
 
         <Link
-          title="Curriculo"
+          title="Curriculo dev fullstack"
           target="_blank"
           to={
             "https://docs.google.com/document/d/1RuY9K2i9rQIZCorUadjX_VIELbHQhU19/edit?usp=sharing&ouid=110327685685232973062&rtpof=true&sd=true"

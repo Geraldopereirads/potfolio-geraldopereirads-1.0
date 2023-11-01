@@ -4,7 +4,9 @@ import { ListMainContactPage } from "./ListMainContactPage/listMainContactPage";
 export const MainContactPage = () => {
   return (
     <main>
-      <StyleH1Two>Contatos</StyleH1Two>
+      <StyleH1Two title="Desenvolvedor Front-End | Back-End | Full-Stack">
+        Contatos
+      </StyleH1Two>
       <ListMainContactPage />
     </main>
   );

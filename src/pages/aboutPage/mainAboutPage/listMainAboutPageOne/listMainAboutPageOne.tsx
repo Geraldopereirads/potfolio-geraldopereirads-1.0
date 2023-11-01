@@ -1,12 +1,12 @@
-import { StyleListAboutPage } from "./styleListAboutPageOne"
+import { StyleListAboutPage } from "./styleListAboutPageOne";
 
 export const ListMainAboutPageOne = () => {
   return (
-    <StyleListAboutPage>
-        <li>Organização</li>
-        <li>Criativo</li>
-        <li>Bom Humor</li>
-        <li>Fácil Aprendizado</li>
+    <StyleListAboutPage title="Desenvolvedor Front-End | Back-End | Full-Stack">
+      <li title="Organizado">Organização</li>
+      <li title="Criativo">Criativo</li>
+      <li title="Bom Humor">Bom Humor</li>
+      <li title="Fácil Aprendizado">Fácil Aprendizado</li>
     </StyleListAboutPage>
-  )
-}
+  );
+};

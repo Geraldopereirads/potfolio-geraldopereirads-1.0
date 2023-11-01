@@ -11,7 +11,7 @@ export const MainAboutPage = () => {
         <StyleSpanH1Two>Pereira</StyleSpanH1Two>
       </StyleH1>
       <StyleDivMain>
-        <p>
+        <p title="Desenvolvedor Front-End | Back-End | Full-Stack">
           Olá! Sou um desenvolvedor Full-stack com mais de um ano de experiência
           em desenvolvimento web. Durante minha jornada, concluí diversos
           projetos significativos que demonstram minhas habilidades e expertise
@@ -30,12 +30,13 @@ export const MainAboutPage = () => {
         </p>
         <ListMainAboutPageOne />
         <img
+          title="Desenvolvedor Front-End | Back-End | Full-Stack"
           src="https://github.com/Geraldopereirads.png"
           alt="Foto Geraldo Pereira"
         />
         <ListMainAboutPageTwo />
 
-        <p>
+        <p title="Desenvolvedor Front-End | Back-End | Full-Stack">
           Além disso, desenvolvi uma API para uma locadora de filmes fictícios,
           utilizando tecnologias de ponta, como TypeScript, Zod, PostgreSQL,
           TypeORM, PG e PG-Format. Essa API permite realizar operações de CRUD
