@@ -19,6 +19,8 @@ export const ProjectListStyleLiTwo = styled.li`
 
   a h2 {
     color: var(--title-nav);
+    font-size: 2rem;
+    padding-bottom: 15px;
   }
 `;
 
