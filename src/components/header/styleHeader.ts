@@ -20,6 +20,7 @@ export const StyleHeader = styled.header`
   }
   @media (min-width: 700px) {
     justify-content: space-between;
+    gap: 50px;
 
     a {
       font-size: 1.1rem;
@@ -27,6 +28,7 @@ export const StyleHeader = styled.header`
   }
 
   @media (min-width: 900px) {
+    gap: 70px;
     a {
       font-size: 1.3rem;
     }
