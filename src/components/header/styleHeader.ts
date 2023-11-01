@@ -7,6 +7,8 @@ export const StyleHeader = styled.header`
   justify-content: space-between;
   background-color: var(--header-color);
 
+  box-shadow: 0px 2px;
+
   height: 70px;
   gap: 70px;
 
@@ -14,12 +16,14 @@ export const StyleHeader = styled.header`
   z-index: 5;
   top: 0;
 
+  a {
+    font-weight: bold;
+  }
   @media (min-width: 700px) {
     justify-content: space-between;
-    gap: 50px;
 
     a {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -30,9 +34,9 @@ export const StyleHeader = styled.header`
   }
 
   @media (min-width: 1200px) {
-    justify-content: space-around;
+    justify-content: space-between;
 
-    gap: 40px;
+    gap: 140px;
 
     a {
       font-size: 1.5rem;
@@ -52,7 +56,7 @@ export const StyleDivSociaisHeader = styled.div`
 export const StyleNavHeader = styled.nav`
   display: flex;
   gap: 30px;
-  padding-left: 10px;
+  padding-left: 15px;
 
   a {
     border-bottom: solid 1px transparent;
@@ -70,21 +74,14 @@ export const StyleNavHeader = styled.nav`
     gap: 50px;
   }
 
-  @media (min-width: 900px) {
-    gap: 60px;
-  }
-
   @media (min-width: 1000px) {
-    gap: 75px;
+    gap: 60px;
   }
 
   @media (min-width: 1100px) {
     gap: 90px;
   }
 
-  @media (min-width: 1200px) {
-    gap: 100px;
-  }
   @media (min-width: 1400px) {
     gap: 150px;
   }

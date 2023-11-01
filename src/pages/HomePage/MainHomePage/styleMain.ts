@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const StyleMainContainer = styled.main`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 50px;
   padding: 50px 0px 50px 0px;
 
@@ -123,7 +125,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 52%;
+      width: 50%;
     }
   }
 
@@ -147,12 +149,17 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
+      width: 44%;
+    }
+  }
+
+  @media (min-width: 1100px) {
+    img {
       width: 40%;
     }
   }
 
   @media (min-width: 1200px) {
-    padding-top: 100px;
     gap: 220px;
 
     h1 {
@@ -164,7 +171,6 @@ export const StyleMainContainer = styled.main`
     }
   }
   @media (min-width: 1400px) {
-    padding-top: 100px;
     gap: 300px;
 
     h1 {
@@ -208,11 +214,10 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 600px) {
-    max-width: 100%;
+    max-width: 41%;
   }
 
   @media (min-width: 700px) {
-    padding-left: 10px;
   }
 
   @media (min-width: 1000px) {
@@ -225,7 +230,6 @@ export const StyleDivMainContainer = styled.div`
 
   @media (min-width: 1400px) {
     max-width: 40%;
-    padding-left: 50px;
   }
   @media (min-width: 1600px) {
     max-width: 45%;
