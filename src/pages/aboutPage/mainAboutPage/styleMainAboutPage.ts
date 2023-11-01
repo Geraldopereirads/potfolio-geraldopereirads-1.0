@@ -12,16 +12,16 @@ export const StyleSobreMain = styled.main`
 
     border-radius: 100px;
 
-    z-index: 10;
+    z-index: 1;
   }
 
   p {
-    line-height: 135%;
+    line-height: 150%;
     font-weight: 500;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
 
-    max-width: 95%;
+    max-width: 100%;
   }
 
   @media (min-width: 400px) {
@@ -42,6 +42,15 @@ export const StyleSobreMain = styled.main`
     p {
       line-height: 170%;
       font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    p {
+      line-height: 200%;
+    }
+    img {
+      width: 200px;
     }
   }
 `;

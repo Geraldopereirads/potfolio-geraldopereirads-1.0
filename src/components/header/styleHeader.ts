@@ -7,8 +7,7 @@ export const StyleHeader = styled.header`
   justify-content: space-between;
   background-color: var(--header-color);
 
-  box-shadow: 0px 2px;
-
+  box-shadow: 0px 1px 5px 4px;
   height: 70px;
   gap: 70px;
 

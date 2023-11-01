@@ -14,8 +14,8 @@ export const MainAboutPage = () => {
         <p>
           Olá! Sou um desenvolvedor Full-stack com mais de um ano de experiência
           em desenvolvimento web. Durante minha jornada, concluí diversos
-          projetos significativos que demonstram minha habilidade e expertise na
-          área. Um desses projetos é uma aplicação para uma hamburgueria
+          projetos significativos que demonstram minhas habilidades e expertise
+          na área. Um desses projetos é uma aplicação para uma hamburgueria
           fictícia, construída utilizando React. Essa aplicação se destaca por
           sua integração com uma API para obtenção de produtos, funcionalidades
           avançadas como adicionar produtos ao carrinho e exibição do valor
@@ -44,7 +44,7 @@ export const MainAboutPage = () => {
           desafios no desenvolvimento web e estou animado para continuar
           contribuindo com meu conhecimento e habilidades em projetos futuros.
           Se você busca um profissional com paixão pelo desenvolvimento web,
-          estou à disposição para colaborar em sua próxima empreitada.{" "}
+          estou à disposição para colaborar em sua próxima empreitada.
         </p>
       </StyleDivMain>
     </StyleSobreMain>

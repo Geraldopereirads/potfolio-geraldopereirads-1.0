@@ -10,6 +10,8 @@ export const ProjectListStyleLiTwo = styled.li`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0px 0px 3px 1px;
+    border-radius: 10px;
   }
   a {
     cursor: pointer;
