@@ -1,30 +1,9 @@
-import kenziehub from "../assets/projects/KenzieHub.png";
-import kenzieburguer from "../assets/projects/KenzieBurguer.png";
-import webwomen from "../assets/projects/Webwomen.png";
-import nukenzie from "../assets/projects/nuKenzie.png";
-import kenzieflix from "../assets/projects/KenzieFlix.png";
-import speedJob from "../assets/projects/speedJob.png";
-import portfolioimg from "../assets/projects/portfólioImg.png";
+import kenziehub from "../assets/projects/kenzieHub.jpg";
+import kenzieburguer from "../assets/projects/kenzieBurguer.jpg";
+import nukenzie from "../assets/projects/nuKenzie.jpg";
+import portfolioimg from "../assets/projects/portfolio.jpg";
 
 export const projectsData = [
-  {
-    title: "kenzieflix",
-    img: kenzieflix,
-    urlVercel: "https://s2-23-entrega-css-kenzie-flix.vercel.app/",
-    github: "https://github.com/Geraldopereirads/KenzieFlix",
-  },
-  {
-    title: "Speed Job",
-    img: speedJob,
-    urlVercel: "https://speed-job.vercel.app/",
-    github: "https://github.com/Geraldopereirads/SpeedJob",
-  },
-  {
-    title: "Webwomen",
-    img: webwomen,
-    urlVercel: "https://webwomen-sable.vercel.app/",
-    github: "https://github.com/Geraldopereirads/WebWomen",
-  },
   {
     title: "NuKenzie",
     img: nukenzie,
@@ -44,7 +23,7 @@ export const projectsData = [
     github: "https://github.com/Geraldopereirads/KenzieHub",
   },
   {
-    title: "Portfólio Geraldo",
+    title: "Portfólio",
     img: portfolioimg,
     urlVercel: "https://geraldopereira.com.br",
     github: "https://github.com/Geraldopereirads/potfolio-geraldopereirads",

@@ -5,13 +5,14 @@ import {
   ProjectListStyleLiTwo,
   ProjectListStyleDivTwo,
 } from "./projectListStyleTwo";
-import { IProject } from "interface/projects.interface";
 
 export const ProjectsListTwo = ({ project }: any) => {
   return (
     <ProjectListStyleLiTwo>
       <Link target="_blank" title="projeto" to={project.urlVercel}>
-        <h2>{project.tittle}</h2>
+        <h2>{project.title}</h2>
+      </Link>
+      <Link target="_blank" title="projeto" to={project.urlVercel}>
         <img src={project.img} alt="Projeto" />
       </Link>
       <Link target="_blank" title="projeto" to={project.urlVercel}></Link>
