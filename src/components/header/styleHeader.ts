@@ -43,6 +43,23 @@ export const StyleHeader = styled.header`
       font-size: 1.5rem;
     }
   }
+
+  @media (min-width: 1400px) {
+    justify-content: space-around;
+  }
+
+  @media (min-width: 2500px) {
+    gap: 400px;
+
+    a {
+      font-size: 3rem;
+    }
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
 `;
 
 export const StyleDivSociaisHeader = styled.div`
@@ -84,7 +101,7 @@ export const StyleNavHeader = styled.nav`
   }
 
   @media (min-width: 1400px) {
-    gap: 150px;
+    gap: 100px;
   }
 `;
 export const StyleButtonMenu = styled.span`

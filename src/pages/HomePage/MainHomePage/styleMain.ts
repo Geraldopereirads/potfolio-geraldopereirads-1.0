@@ -125,6 +125,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
+      margin: 0;
       width: 50%;
     }
   }
@@ -142,14 +143,12 @@ export const StyleMainContainer = styled.main`
   }
 
   @media (min-width: 1000px) {
-    gap: 150px;
-
     h1 {
       max-width: 90%;
     }
 
     img {
-      width: 44%;
+      width: 42%;
     }
   }
 
@@ -160,8 +159,6 @@ export const StyleMainContainer = styled.main`
   }
 
   @media (min-width: 1200px) {
-    gap: 220px;
-
     h1 {
       font-size: 3rem;
     }
@@ -171,8 +168,7 @@ export const StyleMainContainer = styled.main`
     }
   }
   @media (min-width: 1400px) {
-    gap: 300px;
-
+    justify-content: space-around;
     h1 {
       font-size: 3.5rem;
     }
@@ -185,6 +181,24 @@ export const StyleMainContainer = styled.main`
   @media (min-width: 1600px) {
     h1 {
       font-size: 3.5rem;
+    }
+
+    img {
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 2500px) {
+    h1 {
+      font-size: 7rem;
+    }
+
+    h1 small {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 3rem;
     }
 
     img {
