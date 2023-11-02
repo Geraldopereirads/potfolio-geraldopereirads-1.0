@@ -237,6 +237,6 @@ export const StyleDivMainContainer = styled.div`
     max-width: 40%;
   }
   @media (min-width: 1600px) {
-    max-width: 45%;
+    max-width: 33%;
   }
 `;
