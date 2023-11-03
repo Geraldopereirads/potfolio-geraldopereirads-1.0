@@ -21,7 +21,7 @@ export const StyleSobreMain = styled.main`
 
     font-size: 1.2rem;
 
-    max-width: 100%;
+    max-width: 90%;
   }
 
   @media (min-width: 400px) {
