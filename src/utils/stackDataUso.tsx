@@ -9,6 +9,8 @@ import nodeJs from "../assets/tecnologias/nodeJs.svg";
 import expressJs from "../assets/tecnologias/expressJs.svg";
 import python from "../assets/tecnologias/python.svg";
 import django from "../assets/tecnologias/django.svg";
+import nestJs from "../assets/tecnologiasStudyng/nestJs.svg";
+import nextJs from "../assets/tecnologiasStudyng/nextJs.svg";
 
 export const stackEmUso = [
   {
@@ -43,5 +45,11 @@ export const stackEmUso = [
   },
   {
     title: django,
+  },
+  {
+    title: nestJs,
+  },
+  {
+    title: nextJs,
   },
 ];
