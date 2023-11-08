@@ -1,4 +1,4 @@
-import { MdOutlineAttachEmail } from "react-icons/md";
+import { MdOutlineAttachEmail, MdOutlineMarkEmailRead } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { ListMainContactStyle } from "./listMainContactPageStyle";
 import { BsWhatsapp } from "react-icons/bs";
@@ -62,6 +62,24 @@ export const ListMainContactPage = () => {
           </Link>
           <Link target="_blank" to={"https://github.com/Geraldopereirads"}>
             <span>/Geraldopereirads</span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            target="_blank"
+            to={
+              "https://docs.google.com/document/d/1RuY9K2i9rQIZCorUadjX_VIELbHQhU19/edit"
+            }
+          >
+            <h2>Currículo</h2>
+          </Link>
+          <Link
+            target="_blank"
+            to={
+              "https://docs.google.com/document/d/1RuY9K2i9rQIZCorUadjX_VIELbHQhU19/edit"
+            }
+          >
+            <MdOutlineMarkEmailRead size={35} />
           </Link>
         </li>
       </ListMainContactStyle>
