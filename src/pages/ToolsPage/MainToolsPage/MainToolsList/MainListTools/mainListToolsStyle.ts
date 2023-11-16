@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const MainListStyle = styled.li`
-  z-index: 10;
   img {
     width: 120px;
   }
