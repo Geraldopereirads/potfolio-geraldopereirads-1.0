@@ -9,9 +9,9 @@ import nodeJs from "../assets/tecnologias/nodeJs.svg";
 import expressJs from "../assets/tecnologias/expressJs.svg";
 import python from "../assets/tecnologias/python.svg";
 import django from "../assets/tecnologias/django.svg";
-import nestJs from "../assets/tecnologiasStudyng/nestJs.svg";
-import nextJs from "../assets/tecnologiasStudyng/nextJs.svg";
-
+import nestJs from "../assets/tecnologias/nestJs.svg";
+import nextJs from "../assets/tecnologias/nextJs.svg";
+import wordpress from "../assets/tecnologias/wordpress.svg";
 export const stackEmUso = [
   {
     title: html,
@@ -51,5 +51,8 @@ export const stackEmUso = [
   },
   {
     title: nextJs,
+  },
+  {
+    title: wordpress,
   },
 ];
