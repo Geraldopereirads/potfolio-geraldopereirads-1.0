@@ -29,7 +29,7 @@ export const Header = () => {
       <StyleNavHeader>
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
-        <Link to="/portifolio">Portfólio</Link>
+        <Link to="/portfolio">Portfólio</Link>
         <Link to="/ferramentas">Ferramentas</Link>
         <Link to="/contato">Contato</Link>
       </StyleNavHeader>

@@ -1,5 +1,5 @@
 import { StyleH1Two } from "@/styles/h1StyleTwo";
-import { ListMainContactPage } from "./ListMainContactPage/listMainContactPage";
+import { ListMainContactPage } from "./listMainContactPage/listMainContactPage";
 
 export const MainContactPage = () => {
   return (

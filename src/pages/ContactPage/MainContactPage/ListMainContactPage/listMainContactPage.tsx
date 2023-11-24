@@ -1,8 +1,8 @@
 import { MdOutlineAttachEmail, MdOutlineMarkEmailRead } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { ListMainContactStyle } from "./listMainContactPageStyle";
 import { BsWhatsapp } from "react-icons/bs";
 import { GrLinkedinOption, GrGithub } from "react-icons/gr";
+import { ListMainContactStyle } from "./listMainContactPageStyle";
 
 export const ListMainContactPage = () => {
   return (

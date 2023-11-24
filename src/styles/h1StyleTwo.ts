@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyleH1Two = styled.h1`
   background-color: var(--primary-color);
+  border-radius: 5px;
 
   height: 45px;
   width: 180px;
