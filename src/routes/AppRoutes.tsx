@@ -5,9 +5,9 @@ import { AboutPage } from "../pages/aboutPage/aboutPage";
 import { PortfolioPage } from "../pages/PortifolioPage/portfolioPage";
 import { ToolsPage } from "../pages/ToolsPage/toolsPage";
 import { ContactPage } from "../pages/ContactPage/contactPage";
-import { BackEndPage } from "@/pages/backEndPage/backEndPage";
-import { FrontEndPage } from "@/pages/frontEndPage/frontEndPage";
-import { FullStackPage } from "@/pages/fullStackPage/fullStackPage";
+import { BackEndPage } from "@/pages/BackEndPage/backEndPage";
+import { FrontEndPage } from "@/pages/FrontEndPage/frontEndPage";
+import { FullStackPage } from "@/pages/FullStackPage/fullStackPage";
 
 export const AppRoutes = () => {
   return (

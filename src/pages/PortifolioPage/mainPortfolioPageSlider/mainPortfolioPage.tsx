@@ -48,7 +48,7 @@ export const MainPortfolioPage = () => {
       ) : (
         <MainPortfolioPageStyleUlTwo>
           {projectsData.map((project, index) => (
-            <ProjectsListTwo project={project} />
+            <ProjectsListTwo key={index} project={project} />
           ))}
         </MainPortfolioPageStyleUlTwo>
       )}
