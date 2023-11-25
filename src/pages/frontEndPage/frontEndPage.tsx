@@ -2,11 +2,11 @@ import { Header } from "@/components/header/Header";
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
 import { StyledContainer } from "@/styles/grid";
 import { Link } from "react-router-dom";
-import { MainPortfolioPage } from "../PortifolioPage/mainPortfolioPageSlider/mainPortfolioPage";
 import {
   H1PortfolioPage,
   DivportfolioPageLinks,
 } from "../PortifolioPage/styleH1PortfolioPage";
+import { MainFrontEndPage } from "./MainFrontEndPage/mainFrontEndpage";
 
 export const FrontEndPage = () => {
   return (
@@ -21,7 +21,7 @@ export const FrontEndPage = () => {
             <Link to="/frontend">Front-End</Link>
           </DivportfolioPageLinks>
 
-          <MainPortfolioPage />
+          <MainFrontEndPage />
         </StyledContainer>
       </StyleDivBackGroundDark>
     </>
