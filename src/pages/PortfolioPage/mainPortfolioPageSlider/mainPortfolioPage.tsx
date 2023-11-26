@@ -1,4 +1,3 @@
-import { projectsData } from "@/utils/projectsData";
 import { ProjectsListOne } from "./ProjectListOne/projectListOne";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
@@ -7,6 +6,7 @@ import {
   MainPortfolioPageStyleUlTwo,
 } from "./mainPortfolioPageStyle";
 import { ProjectsListTwo } from "./ProjectListTwo/projectListTwo";
+import { projectsData } from "@/utils/projectsData";
 
 export const MainPortfolioPage = () => {
   const [slidePerView, setSlidePerView] = useState(2);

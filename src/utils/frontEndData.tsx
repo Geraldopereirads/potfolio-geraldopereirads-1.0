@@ -4,7 +4,7 @@ import nukenzie from "../assets/projects/nuKenzie.jpg";
 import portfolioimg from "../assets/projects/portfolio.jpg";
 import hyperion from "../assets/projects/hyperion.svg";
 
-export const projectsData = [
+export const frontEndData = [
   {
     title: "NuKenzie",
     img: nukenzie,

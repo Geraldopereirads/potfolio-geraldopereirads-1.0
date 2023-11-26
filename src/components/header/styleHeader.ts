@@ -84,7 +84,7 @@ export const StyleNavHeader = styled.nav`
     border-bottom: solid 1px var(--primary-color);
   }
 
-  @media (max-width: 699px) {
+  @media (max-width: 700px) {
     display: none;
   }
 
@@ -107,7 +107,7 @@ export const StyleNavHeader = styled.nav`
 export const StyleButtonMenu = styled.span`
   padding-left: 10px;
 
-  @media (min-width: 699px) {
+  @media (min-width: 701px) {
     display: none;
   }
 `;

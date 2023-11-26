@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { HomePage } from "../pages/HomePage/homePage";
 import { PageNotFoud } from "../pages/PageNotFound/pageNotFound";
 import { AboutPage } from "../pages/aboutPage/aboutPage";
-import { PortfolioPage } from "../pages/PortifolioPage/portfolioPage";
+import { PortfolioPage } from "../pages/PortfolioPage/portfolioPage";
 import { ToolsPage } from "../pages/ToolsPage/toolsPage";
 import { ContactPage } from "../pages/ContactPage/contactPage";
 import { BackEndPage } from "@/pages/BackEndPage/backEndPage";

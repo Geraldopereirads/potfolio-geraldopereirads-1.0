@@ -1,11 +1,11 @@
-import { Header } from "@/components/header/Header";
+import { Header } from "@/components/Header/Header";
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
 import { StyledContainer } from "@/styles/grid";
 import { Link } from "react-router-dom";
 import {
   H1PortfolioPage,
   DivportfolioPageLinks,
-} from "../PortifolioPage/styleH1PortfolioPage";
+} from "../PortfolioPage/styleH1PortfolioPage";
 
 export const FullStackPage = () => {
   return (

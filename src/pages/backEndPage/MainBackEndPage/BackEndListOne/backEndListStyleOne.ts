@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectListStyleLiOne = styled.li`
+export const BackEndListStyleLiOne = styled.li`
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -15,11 +15,7 @@ export const ProjectListStyleLiOne = styled.li`
   }
 `;
 
-export const ProjectListStyleDivOne = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 150px;
-
+export const BackEndListStyleDivOne = styled.div`
   a {
     cursor: pointer;
   }

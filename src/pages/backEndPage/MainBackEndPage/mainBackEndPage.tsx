@@ -1,14 +1,14 @@
-import { ProjectsListOne } from "@/pages/PortfolioPage/mainPortfolioPageSlider/ProjectListOne/projectListOne";
-import { ProjectsListTwo } from "@/pages/PortfolioPage/mainPortfolioPageSlider/ProjectListTwo/projectListTwo";
-import { frontEndData } from "@/utils/frontEndData";
+import { backEndData } from "@/utils/backEndData";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { BackEndsListOne } from "./BackEndListOne/backEndListOne";
 import {
-  MainFrontEndPageStyleUlOne,
-  MainFrontEndPageStyleUlTwo,
-} from "./mainFrontEndPageStyle";
+  MainBackEndPageStyleUlOne,
+  MainBackEndPageStyleUlTwo,
+} from "./mainBackEndPageStyle";
+import { BackEndsListTwo } from "./BackEndListTwo/BackEndListTwo";
 
-export const MainFrontEndPage = () => {
+export const MainBackEndPage = () => {
   const [slidePerView, setSlidePerView] = useState(2);
 
   useEffect(() => {
@@ -31,26 +31,26 @@ export const MainFrontEndPage = () => {
   return (
     <main>
       {window.innerWidth < 700 ? (
-        <MainFrontEndPageStyleUlOne>
+        <MainBackEndPageStyleUlOne>
           <Swiper
             loop={true}
             slidesPerView={slidePerView}
             pagination={{ clickable: true }}
             navigation
           >
-            {frontEndData.map((project, index) => (
+            {backEndData.map((backend, index) => (
               <SwiperSlide key={index}>
-                <ProjectsListOne project={project} />
+                <BackEndsListOne backend={backend} />
               </SwiperSlide>
             ))}
           </Swiper>
-        </MainFrontEndPageStyleUlOne>
+        </MainBackEndPageStyleUlOne>
       ) : (
-        <MainFrontEndPageStyleUlTwo>
-          {frontEndData.map((project, index) => (
-            <ProjectsListTwo key={index} project={project} />
+        <MainBackEndPageStyleUlTwo>
+          {backEndData.map((backend, index) => (
+            <BackEndsListTwo key={index} backend={backend} />
           ))}
-        </MainFrontEndPageStyleUlTwo>
+        </MainBackEndPageStyleUlTwo>
       )}
     </main>
   );

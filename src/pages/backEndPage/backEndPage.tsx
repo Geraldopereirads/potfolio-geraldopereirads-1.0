@@ -1,11 +1,12 @@
-import { Header } from "@/components/header/Header";
+import { Header } from "@/components/Header/Header";
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
 import { StyledContainer } from "@/styles/grid";
 import { Link } from "react-router-dom";
 import {
   DivportfolioPageLinks,
   H1PortfolioPage,
-} from "../PortifolioPage/styleH1PortfolioPage";
+} from "../PortfolioPage/styleH1PortfolioPage";
+import { MainBackEndPage } from "./MainBackEndPage/mainBackEndPage";
 
 export const BackEndPage = () => {
   return (
@@ -19,6 +20,8 @@ export const BackEndPage = () => {
             <Link to="/fullstack">Full-Stack</Link>
             <Link to="/frontend">Front-End</Link>
           </DivportfolioPageLinks>
+
+          <MainBackEndPage />
         </StyledContainer>
       </StyleDivBackGroundDark>
     </>

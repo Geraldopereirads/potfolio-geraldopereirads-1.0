@@ -1,4 +1,4 @@
-import { Header } from "../../components/header/Header";
+import { Header } from "../../components/Header/Header";
 import { StyleDivBackGroundDark } from "../../styles/BackGroundDark";
 import { StyledContainer } from "../../styles/grid";
 import { MainHomePage } from "./mainHomePage/mainHomePage";

@@ -4,12 +4,12 @@ import { GrGithub, GrInstagram, GrLinkedinOption } from "react-icons/gr";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import { MenuMobile } from "../menuMobile/MenuMobile";
+import { MenuMobile } from "../MenuMobile/MenuMobile";
 import {
-  StyleButtonMenu,
-  StyleDivSociaisHeader,
   StyleHeader,
+  StyleButtonMenu,
   StyleNavHeader,
+  StyleDivSociaisHeader,
 } from "./styleHeader";
 
 export const Header = () => {

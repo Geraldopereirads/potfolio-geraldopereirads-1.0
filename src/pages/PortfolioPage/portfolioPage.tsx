@@ -1,6 +1,6 @@
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
 import { StyledContainer } from "@/styles/grid";
-import { Header } from "../../components/header/Header";
+import { Header } from "../../components/Header/Header";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

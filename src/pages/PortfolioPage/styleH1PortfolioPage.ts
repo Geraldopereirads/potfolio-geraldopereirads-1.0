@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const H1PortfolioPage = styled.h1`
   background-color: var(--primary-color);
 
+  border-radius: 5px;
+
   height: 45px;
   width: 180px;
   margin: 100px auto 100px auto;

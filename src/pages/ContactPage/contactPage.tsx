@@ -1,5 +1,5 @@
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
-import { Header } from "../../components/header/Header";
+import { Header } from "../../components/Header/Header";
 import { StyledContainer } from "@/styles/grid";
 import { MainContactPage } from "./MainContactPage/mainContactPage";
 

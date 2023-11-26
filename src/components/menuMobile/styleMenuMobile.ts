@@ -11,7 +11,7 @@ export const ContainerMenuMobile = styled.section<
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10000;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,17 +46,17 @@ export const ContainerMenuMobile = styled.section<
     gap: 2rem;
     transform: scale(0.7);
     transition: 0.7s;
-    z-index: 10000;
+    z-index: 100;
   }
 
   a {
-    z-index: 10000;
+    z-index: 100;
     border-bottom: solid 1px transparent;
     font-size: 1.5rem;
   }
 
   a:hover {
-    z-index: 10000;
+    z-index: 100;
     border-bottom: solid 1px var(--primary-color);
   }
 
@@ -75,7 +75,7 @@ export const ContainerMenuMobile = styled.section<
 
       nav {
         transform: scale(1);
-        z-index: 10000;
+        z-index: 100;
       }
     `}
 `;
