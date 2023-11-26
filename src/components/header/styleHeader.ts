@@ -81,7 +81,7 @@ export const StyleNavHeader = styled.nav`
   }
 
   a:hover {
-    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
   }
 
   @media (max-width: 700px) {
