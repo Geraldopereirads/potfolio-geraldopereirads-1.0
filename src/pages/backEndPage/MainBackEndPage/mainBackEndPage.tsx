@@ -6,7 +6,7 @@ import {
   MainBackEndPageStyleUlOne,
   MainBackEndPageStyleUlTwo,
 } from "./mainBackEndPageStyle";
-import { BackEndsListTwo } from "./BackEndListTwo/BackEndListTwo";
+import { BackEndsListTwo } from "./BackEndListTwo/backEndListTwo";
 
 export const MainBackEndPage = () => {
   const [slidePerView, setSlidePerView] = useState(2);
