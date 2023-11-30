@@ -2,7 +2,10 @@ import { MdOutlineAttachEmail, MdOutlineMarkEmailRead } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
 import { GrLinkedinOption, GrGithub } from "react-icons/gr";
-import { ListMainContactStyle } from "./listMainContactPageStyle";
+import {
+  ListMainContactStyle,
+  ListMainContactStyleDiv,
+} from "./listMainContactPageStyle";
 
 export const ListMainContactPage = () => {
   return (
@@ -82,6 +85,13 @@ export const ListMainContactPage = () => {
             <MdOutlineMarkEmailRead size={35} />
           </Link>
         </li>
+        <ListMainContactStyleDiv>
+          <p>
+            “Aprender é a unica coisa que a mente não se cansa, nunca tem medo e
+            nunca se arrepende”
+          </p>
+          <span>~Leonardo da Vinci</span>
+        </ListMainContactStyleDiv>
       </ListMainContactStyle>
     </>
   );
