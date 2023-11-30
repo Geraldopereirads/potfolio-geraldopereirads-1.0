@@ -31,11 +31,15 @@ export const ListMainContactStyleDiv = styled.div`
   justify-content: center;
   gap: 20px;
 
+  padding-bottom: 30px;
+
   p {
     color: var(--title-nav);
     font-size: 1.5rem;
     font-weight: bold;
-    max-width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    line-height: 150%;
   }
 
   span {
