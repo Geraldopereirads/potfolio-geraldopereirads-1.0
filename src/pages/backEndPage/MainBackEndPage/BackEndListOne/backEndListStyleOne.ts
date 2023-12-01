@@ -16,7 +16,9 @@ export const BackEndListStyleLiOne = styled.li`
 `;
 
 export const BackEndListStyleDivOne = styled.div`
-  a {
+  display: flex;
+  justify-content: center;
+  gap: 50px a {
     cursor: pointer;
   }
 

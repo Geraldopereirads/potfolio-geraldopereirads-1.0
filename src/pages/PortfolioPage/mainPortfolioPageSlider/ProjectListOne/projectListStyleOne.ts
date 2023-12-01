@@ -18,7 +18,7 @@ export const ProjectListStyleLiOne = styled.li`
 export const ProjectListStyleDivOne = styled.div`
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 50px;
 
   a {
     cursor: pointer;

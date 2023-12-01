@@ -19,6 +19,7 @@ export const BackEndPage = () => {
             <Link to="/backend">Back-End</Link>
             <Link to="/fullstack">Full-Stack</Link>
             <Link to="/frontend">Front-End</Link>
+            <Link to="/wordpress">WordPress</Link>
           </DivportfolioPageLinks>
 
           <MainBackEndPage />

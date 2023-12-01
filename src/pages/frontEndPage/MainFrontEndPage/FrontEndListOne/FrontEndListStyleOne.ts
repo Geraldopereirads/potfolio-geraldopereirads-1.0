@@ -18,8 +18,7 @@ export const FrontendListStyleLiOne = styled.li`
 export const FrontendListStyleDivOne = styled.div`
   display: flex;
   justify-content: center;
-  gap: 150px;
-
+  gap: 50px;
   a {
     cursor: pointer;
   }

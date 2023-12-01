@@ -32,12 +32,7 @@ export const MainBackEndPage = () => {
     <main>
       {window.innerWidth < 700 ? (
         <MainBackEndPageStyleUlOne>
-          <Swiper
-            loop={true}
-            slidesPerView={slidePerView}
-            pagination={{ clickable: true }}
-            navigation
-          >
+          <Swiper loop={true} slidesPerView={slidePerView} navigation>
             {backEndData.map((backend, index) => (
               <SwiperSlide key={index}>
                 <BackEndsListOne backend={backend} />

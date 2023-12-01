@@ -35,12 +35,18 @@ export const DivportfolioPageLinks = styled.div`
   padding-bottom: 50px;
 
   a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: var(--primary-color);
     color: var(--text-dark);
-    padding: 20px;
     border-radius: 5px;
 
     font-weight: bold;
+
+    width: 85px;
+    height: 50px;
   }
   :hover {
     background-color: var(--title-nav);
@@ -63,11 +69,7 @@ export const DivportfolioPageLinks = styled.div`
     gap: 150px;
   }
 
-  @media (min-width: 900px) {
-    gap: 220px;
-  }
-
   @media (min-width: 1200px) {
-    gap: 350px;
+    gap: 200px;
   }
 `;

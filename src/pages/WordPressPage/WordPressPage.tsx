@@ -7,7 +7,7 @@ import {
   DivportfolioPageLinks,
 } from "../PortfolioPage/styleH1PortfolioPage";
 
-export const FullStackPage = () => {
+export const MainWordPressPage = () => {
   return (
     <>
       <Header />

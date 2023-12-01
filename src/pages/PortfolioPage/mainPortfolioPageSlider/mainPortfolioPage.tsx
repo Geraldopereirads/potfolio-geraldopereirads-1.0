@@ -32,12 +32,7 @@ export const MainPortfolioPage = () => {
     <main>
       {window.innerWidth < 700 ? (
         <MainPortfolioPageStyleUlOne>
-          <Swiper
-            loop={true}
-            slidesPerView={slidePerView}
-            pagination={{ clickable: true }}
-            navigation
-          >
+          <Swiper loop={true} slidesPerView={slidePerView} navigation>
             {projectsData.map((project, index) => (
               <SwiperSlide key={index}>
                 <ProjectsListOne project={project} />

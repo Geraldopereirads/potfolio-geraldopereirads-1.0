@@ -8,6 +8,7 @@ import { ContactPage } from "../pages/ContactPage/contactPage";
 import { BackEndPage } from "@/pages/BackEndPage/backEndPage";
 import { FrontEndPage } from "@/pages/FrontEndPage/frontEndPage";
 import { FullStackPage } from "@/pages/FullStackPage/fullStackPage";
+import { MainWordPressPage } from "@/pages/WordPressPage/WordPressPage";
 
 export const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ export const AppRoutes = () => {
         <Route path="/frontend" element={<FrontEndPage />} />
         <Route path="/backend" element={<BackEndPage />} />
         <Route path="/fullstack" element={<FullStackPage />} />
+        <Route path="/wordpress" element={<MainWordPressPage />} />
         <Route path="*" element={<PageNotFoud />} />
       </Routes>
     </div>

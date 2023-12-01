@@ -32,12 +32,7 @@ export const MainFrontEndPage = () => {
     <main>
       {window.innerWidth < 700 ? (
         <MainFrontEndPageStyleUlOne>
-          <Swiper
-            loop={true}
-            slidesPerView={slidePerView}
-            pagination={{ clickable: true }}
-            navigation
-          >
+          <Swiper loop={true} slidesPerView={slidePerView} navigation>
             {frontEndData.map((project, index) => (
               <SwiperSlide key={index}>
                 <ProjectsListOne project={project} />

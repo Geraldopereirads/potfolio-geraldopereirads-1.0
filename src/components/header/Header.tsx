@@ -55,13 +55,6 @@ export const Header = () => {
         >
           <GrGithub size={25} />
         </Link>
-        <Link
-          title="instagram dev fullstack"
-          target="_blank"
-          to={"https://www.instagram.com/geraldopereiradsj/"}
-        >
-          <GrInstagram size={25} />
-        </Link>
 
         <Link
           title="Curriculo dev fullstack"
