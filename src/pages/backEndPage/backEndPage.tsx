@@ -14,7 +14,9 @@ export const BackEndPage = () => {
       <Header />
       <StyleDivBackGroundDark>
         <StyledContainer>
-          <H1PortfolioPage>Portfólio</H1PortfolioPage>
+          <Link to="/portfolio">
+            <H1PortfolioPage>Portfólio</H1PortfolioPage>
+          </Link>
           <DivportfolioPageLinks>
             <Link to="/backend">Back-End</Link>
             <Link to="/fullstack">Full-Stack</Link>

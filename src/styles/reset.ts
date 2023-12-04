@@ -67,6 +67,16 @@ table {
 
 a {
 	color: var(--title-nav);
+
+	h1{
+		color: var(--text-dark);
+
+	}
+
+	h1:hover{
+		background-color: var(--title-nav);
+
+	}
 }
 
 `;
