@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { GrGithub, GrInstagram, GrLinkedinOption } from "react-icons/gr";
+import { GrGithub, GrLinkedinOption } from "react-icons/gr";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { BsWhatsapp } from "react-icons/bs";
-import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { LiaFileCode } from "react-icons/lia";
 import { MenuMobile } from "../MenuMobile/MenuMobile";
 import {
   StyleHeader,
@@ -35,6 +35,7 @@ export const Header = () => {
       </StyleNavHeader>
       <StyleDivSociaisHeader>
         <Link
+          className="icons-header"
           target="_blank"
           title="WhatsApp"
           to={"https://wa.me/5522997773136"}
@@ -42,14 +43,16 @@ export const Header = () => {
           <BsWhatsapp size={25} />
         </Link>
         <Link
-          title="Linkedin dev fullstack"
+          className="icons-header"
+          title="Linkedin"
           target="_blank"
           to={"https://www.linkedin.com/in/geraldo-pereira/"}
         >
           <GrLinkedinOption size={25} />
         </Link>
         <Link
-          title="github dev fullstack"
+          className="icons-header"
+          title="github"
           target="_blank"
           to={"https://github.com/Geraldopereirads"}
         >
@@ -57,13 +60,14 @@ export const Header = () => {
         </Link>
 
         <Link
-          title="Curriculo dev fullstack"
+          className="icons-header"
+          title="Curriculo"
           target="_blank"
           to={
             "https://docs.google.com/document/d/1RuY9K2i9rQIZCorUadjX_VIELbHQhU19/edit?usp=sharing&ouid=110327685685232973062&rtpof=true&sd=true"
           }
         >
-          <MdOutlineMarkEmailRead size={30} />
+          <LiaFileCode size={30} />
         </Link>
       </StyleDivSociaisHeader>
     </StyleHeader>

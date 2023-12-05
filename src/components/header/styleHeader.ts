@@ -69,6 +69,10 @@ export const StyleDivSociaisHeader = styled.div`
   gap: 15px;
 
   padding-right: 50px;
+
+  .icons-header:hover {
+    color: var(--primary-color);
+  }
 `;
 
 export const StyleNavHeader = styled.nav`
