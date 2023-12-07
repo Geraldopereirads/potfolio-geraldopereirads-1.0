@@ -18,9 +18,7 @@ export const BackEndListStyleLiOne = styled.li`
 export const BackEndListStyleDivOne = styled.div`
   display: flex;
   justify-content: center;
-  gap: 50px a {
-    cursor: pointer;
-  }
+  gap: 50px;
 
   @media (min-width: 700px) {
     gap: 20px;
