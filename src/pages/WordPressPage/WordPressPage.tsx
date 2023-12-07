@@ -18,9 +18,9 @@ export const MainWordPressPage = () => {
           </Link>
           <DivportfolioPageLinks>
             <Link to="/backend">Back-End</Link>
-            <Link to="/fullstack">Full-Stack</Link>
+            {/* <Link to="/fullstack">Full-Stack</Link> */}
             <Link to="/frontend">Front-End</Link>
-            <Link to="/wordpress">WordPress</Link>
+            {/* <Link to="/wordpress">WordPress</Link> */}
           </DivportfolioPageLinks>
         </StyledContainer>
       </StyleDivBackGroundDark>
