@@ -32,7 +32,7 @@ export const MainAboutPage = () => {
         <img
           title="Desenvolvedor Front-End | Back-End | Full-Stack"
           src="https://github.com/Geraldopereirads.png"
-          alt="Foto Geraldo Pereira"
+          alt="Desenvolvedor Full Stack"
         />
         <ListMainAboutPageTwo />
 

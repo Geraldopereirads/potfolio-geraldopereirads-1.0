@@ -27,17 +27,27 @@ export const Header = () => {
 
       <MenuMobile menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
       <StyleNavHeader>
-        <Link to="/">Home</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/portfolio">Portfólio</Link>
-        <Link to="/ferramentas">Ferramentas</Link>
-        <Link to="/contato">Contato</Link>
+        <Link title="Início" to="/">
+          Início
+        </Link>
+        <Link title="Sobre" to="/sobre">
+          Sobre
+        </Link>
+        <Link title="Portfólio" to="/portfolio">
+          Portfólio
+        </Link>
+        <Link title="Ferramentas" to="/ferramentas">
+          Ferramentas
+        </Link>
+        <Link title="Contato" to="/contato">
+          Contato
+        </Link>
       </StyleNavHeader>
       <StyleDivSociaisHeader>
         <Link
           className="icons-header"
-          target="_blank"
           title="WhatsApp"
+          target="_blank"
           to={"https://wa.me/5522997773136"}
         >
           <BsWhatsapp size={25} />

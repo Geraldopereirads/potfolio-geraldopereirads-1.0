@@ -22,11 +22,21 @@ export const MenuMobile: React.FC<IMenuMobile> = ({
           onClick={() => setMenuVisible(false)}
         />
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/sobre">Sobre</Link>
-          <Link to="/portfolio">Portfólio</Link>
-          <Link to="/ferramentas">Ferramentas</Link>
-          <Link to="/contato">Contato</Link>
+          <Link title="Início" to="/">
+            Início
+          </Link>
+          <Link title="Sobre" to="/sobre">
+            Sobre
+          </Link>
+          <Link title="Portfólio" to="/portfolio">
+            Portfólio
+          </Link>
+          <Link title="Ferramentas" to="/ferramentas">
+            Ferramentas
+          </Link>
+          <Link title="Contato" to="/contato">
+            Contato
+          </Link>
         </nav>
       </ContainerMenuMobile>
     </>
