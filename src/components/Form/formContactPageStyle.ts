@@ -8,7 +8,7 @@ export const ListMainContactStyle = styled.form`
   align-items: center;
   gap: 20px;
   padding-top: 50px;
-
+  max-width: 800px;
   input {
     width: 90%;
     height: 40px;
@@ -25,35 +25,6 @@ export const ListMainContactStyle = styled.form`
 
   textarea {
     width: 90%;
-  }
-
-  @media (min-width: 800px) {
-    input {
-      width: 80%;
-    }
-
-    textarea {
-      width: 80%;
-    }
-  }
-  @media (min-width: 1000px) {
-    input {
-      width: 70%;
-    }
-
-    textarea {
-      width: 70%;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    input {
-      width: 60%;
-    }
-
-    textarea {
-      width: 60%;
-    }
   }
 `;
 
