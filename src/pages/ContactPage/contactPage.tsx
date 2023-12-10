@@ -1,7 +1,7 @@
 import { StyleDivBackGroundDark } from "@/styles/BackGroundDark";
 import { Header } from "../../components/Header/Header";
 import { StyledContainer } from "@/styles/grid";
-import { MainContactPage } from "./MainContactPage/mainContactPage";
+import { MainContactsPage } from "./MainContactPage/mainContactsPage";
 
 export const ContactPage = () => {
   return (
@@ -9,7 +9,7 @@ export const ContactPage = () => {
       <Header />
       <StyleDivBackGroundDark>
         <StyledContainer>
-          <MainContactPage />
+          <MainContactsPage />
         </StyledContainer>
       </StyleDivBackGroundDark>
     </>
