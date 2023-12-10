@@ -5,7 +5,7 @@ export const MainHomePage = () => {
   return (
     <StyleMainContainer>
       <StyleDivMainContainer>
-        <h1 title="Desenvolvedor Front-End | Back-End | Full-Stack">
+        <h1>
           <small>Olá,</small> <br />
           Eu sou Geraldo Pereira, Desenvolvedor Full-Stack
         </h1>
