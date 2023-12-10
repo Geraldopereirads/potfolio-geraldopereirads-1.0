@@ -10,7 +10,7 @@ export const MainHomePage = () => {
           Eu sou Geraldo Pereira, Desenvolvedor Full-Stack
         </h1>
 
-        <h2>Seja bem-vindo ao meu portifólio website</h2>
+        <h2>Seja bem-vindo ao meu portfólio website</h2>
 
         <Link
           title="Conheça sobre Geraldo pereira Desenvolvedor Front-End | Back-End | Full-Stack"
