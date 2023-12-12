@@ -15,7 +15,6 @@ export const MainContactsPage = () => {
       <StyleH1Two>Contato</StyleH1Two>
       <p>
         Desperte sua próxima ideia incrível e transforme projetos em realidade!
-        Contrate meus serviços{" "}
       </p>
       <FormContactPage />
       <DivMainContactPageStyle>

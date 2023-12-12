@@ -27,7 +27,7 @@ export const MainContactPageStyle = styled.main`
 
   @media (min-width: 1200px) {
     p {
-      width: 49%;
+      width: 45%;
       font-size: 1.4rem;
     }
   }
