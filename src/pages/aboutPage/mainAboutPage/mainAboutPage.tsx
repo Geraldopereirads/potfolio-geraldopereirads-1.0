@@ -57,8 +57,8 @@ export const MainAboutPage = () => {
         <p>
           Estou sempre em busca de novos desafios e estou animado para continuar
           contribuindo com meus conhecimentos e habilidades em projetos futuros.
-          Se você busca um profissional com paixão pelo desenvolvimento web,
-          estou à disposição para colaborar em sua próxima empreitada.
+          Se você busca um profissional com paixão pelo desenvolvimento, estou à
+          disposição para colaborar em sua próxima empreitada.
         </p>
       </section>
     </StyleSobreMain>
