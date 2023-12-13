@@ -20,10 +20,6 @@ export const StyleSobreMain = styled.main`
     flex-direction: column;
     align-items: flex-start;
   }
-
-  h2 {
-    padding-top: 50px;
-  }
   img {
     width: 170px;
 
@@ -35,10 +31,6 @@ export const StyleSobreMain = styled.main`
   @media (min-width: 700px) {
     p {
       font-size: 1.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
     }
   }
 
