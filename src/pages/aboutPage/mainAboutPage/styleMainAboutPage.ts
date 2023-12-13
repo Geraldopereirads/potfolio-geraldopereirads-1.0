@@ -4,9 +4,26 @@ export const StyleSobreMain = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
-  gap: 30px;
+  p {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    line-height: 150%;
+    font-weight: 500;
+    max-width: 80%;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h2 {
+    padding-top: 50px;
+  }
   img {
     width: 170px;
 
@@ -15,47 +32,24 @@ export const StyleSobreMain = styled.main`
     z-index: 1;
   }
 
-  p {
-    line-height: 150%;
-    font-weight: 500;
-
-    font-size: 1.2rem;
-
-    max-width: 90%;
-  }
-
-  @media (min-width: 400px) {
+  @media (min-width: 700px) {
     p {
-      line-height: 170%;
-      font-size: 1.2rem;
-    }
-  }
-
-  @media (min-width: 500px) {
-    p {
-      line-height: 170%;
-      font-size: 1.3rem;
-    }
-  }
-
-  @media (min-width: 900px) {
-    p {
-      line-height: 170%;
       font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
     }
   }
 
   @media (min-width: 1200px) {
-    p {
-      line-height: 200%;
-    }
     img {
       width: 200px;
     }
   }
 `;
 
-export const StyleDivMain = styled.div`
+export const StyleContainerMainOne = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

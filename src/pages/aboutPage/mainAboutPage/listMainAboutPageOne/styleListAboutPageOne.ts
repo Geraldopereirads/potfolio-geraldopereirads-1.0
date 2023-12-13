@@ -7,10 +7,11 @@ export const StyleListAboutPage = styled.ul`
   gap: 22px;
 
   font-weight: bold;
-  font-size: 0.8rem;
 
   @media (max-width: 350px) {
-    font-size: 0.8rem;
+    li {
+      font-size: 0.8rem;
+    }
   }
 
   @media (min-width: 400px) {
