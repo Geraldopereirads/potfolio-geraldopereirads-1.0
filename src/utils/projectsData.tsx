@@ -5,6 +5,7 @@ import portfolioimg from "../assets/projects/portfolio.jpg";
 import hyperion from "../assets/projects/hyperion.svg";
 import BackendProject from "../assets/backend/Backend.svg";
 import BackendProject2 from "../assets/backend/Backend 2.svg";
+import Movies from "../assets/backend/Movies typeORM.svg";
 
 export const projectsData = [
   {
@@ -50,7 +51,7 @@ export const projectsData = [
   },
   {
     title: "Movies typeORM",
-    img: BackendProject2,
+    img: Movies,
     github: "https://github.com/Geraldopereirads/m4-movies-typeorm",
   },
 ];
