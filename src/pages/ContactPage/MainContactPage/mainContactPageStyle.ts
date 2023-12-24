@@ -27,8 +27,8 @@ export const MainContactPageStyle = styled.main`
 
   @media (min-width: 1200px) {
     p {
-      width: 45%;
-      font-size: 1.4rem;
+      width: 38%;
+      font-size: 1.7rem;
     }
   }
 `;
@@ -73,6 +73,7 @@ export const DivMainContactPageStyle = styled.div`
   @media (min-width: 1000px) {
     p {
       width: 54%;
+      font-size: 1.8rem;
     }
   }
 `;
