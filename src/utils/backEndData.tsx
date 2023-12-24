@@ -1,6 +1,7 @@
 import BackendProject from "../assets/backend/Backend.svg";
 import BackendProject2 from "../assets/backend/Backend 2.svg";
 import Movies from "../assets/backend/Movies typeORM.svg";
+import KImóveis from "../assets/backend/Kimoveis.svg";
 
 export const backEndData = [
   {
@@ -18,5 +19,10 @@ export const backEndData = [
     title: "Movies typeORM",
     img: Movies,
     github: "https://github.com/Geraldopereirads/m4-movies-typeorm",
+  },
+  {
+    title: "KImóveis typeORM",
+    img: KImóveis,
+    github: "https://github.com/Geraldopereirads/KImoveis",
   },
 ];
