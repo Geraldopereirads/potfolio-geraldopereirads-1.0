@@ -46,6 +46,10 @@ export const StyleHeader = styled.header`
 
   @media (min-width: 1400px) {
     justify-content: space-around;
+
+    a {
+      font-size: 2rem;
+    }
   }
 
   @media (min-width: 2500px) {
