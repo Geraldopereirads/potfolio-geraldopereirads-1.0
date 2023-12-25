@@ -3,6 +3,7 @@ import kenzieburguer from "../assets/projects/kenzieBurguer.jpg";
 import nukenzie from "../assets/projects/nuKenzie.jpg";
 import portfolioimg from "../assets/projects/portfolio.jpg";
 import hyperion from "../assets/projects/hyperion.svg";
+import WebWomen from "../assets/projects/webwomen.svg";
 
 export const frontEndData = [
   {
@@ -34,5 +35,11 @@ export const frontEndData = [
     img: hyperion,
     urlVercel: "https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/",
     github: "https://github.com/Geraldopereirads/Hyperion",
+  },
+  {
+    title: "WebWomen",
+    img: WebWomen,
+    urlVercel: "https://webwomen-sable.vercel.app",
+    github: "https://github.com/Geraldopereirads/WebWomen",
   },
 ];

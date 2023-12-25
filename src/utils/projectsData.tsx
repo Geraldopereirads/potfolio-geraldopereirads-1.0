@@ -7,6 +7,7 @@ import BackendProject from "../assets/backend/Backend.svg";
 import BackendProject2 from "../assets/backend/Backend 2.svg";
 import Movies from "../assets/backend/Movies typeORM.svg";
 import KImóveis from "../assets/backend/Kimoveis.svg";
+import WebWomen from "../assets/projects/webwomen.svg";
 
 export const projectsData = [
   {
@@ -39,6 +40,13 @@ export const projectsData = [
     urlVercel: "https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/",
     github: "https://github.com/Geraldopereirads/Hyperion",
   },
+  {
+    title: "WebWomen",
+    img: WebWomen,
+    urlVercel: "https://webwomen-sable.vercel.app",
+    github: "https://github.com/Geraldopereirads/WebWomen",
+  },
+
   {
     title: "Mercado autônomo",
     img: BackendProject2,
