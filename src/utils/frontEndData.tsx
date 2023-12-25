@@ -1,8 +1,8 @@
-import kenziehub from "../assets/projects/kenzieHub.jpg";
+import hyperion from "../assets/projects/hyperion.svg";
 import kenzieburguer from "../assets/projects/kenzieBurguer.jpg";
+import kenziehub from "../assets/projects/kenzieHub.jpg";
 import nukenzie from "../assets/projects/nuKenzie.jpg";
 import portfolioimg from "../assets/projects/portfolio.jpg";
-import hyperion from "../assets/projects/hyperion.svg";
 import WebWomen from "../assets/projects/webwomen.svg";
 
 export const frontEndData = [
